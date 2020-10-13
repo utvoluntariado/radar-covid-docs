@@ -1,3 +1,3 @@
-# Radar COVID – Open-source Documentation
+# Radar COVID – Wiki
 
-- [Radar COVID – Open-source Wiki](/Radar-STATS/radar-covid-documentation/wiki)
+- [Radar COVID – Wiki](https://github.com/Radar-STATS/radar-covid-documentation/wiki/)
