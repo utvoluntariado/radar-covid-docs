@@ -1,3 +1,5 @@
-# Radar COVID – Wiki
+# Radar COVID – Documentación
 
-- [Radar COVID – Wiki](https://github.com/Radar-STATS/radar-covid-documentation/wiki/)
+Documentación no oficial sobre el servicio de notificaciones de exposición de la aplicación Radar COVID (España).
+
+- [Radar COVID – Documentación](https://utvoluntariado.github.io/radar-covid-docs/)
