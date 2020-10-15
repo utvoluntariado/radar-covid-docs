@@ -10,7 +10,8 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 
 - [Preguntas Frecuentes](#preguntas-frecuentes)
   * [A. Instalación](#instalación)
-  * [001. ¿En qué móviles se puede instalar?](#001)
+    * [001. ¿En qué móviles se puede instalar?](#001)
+    * [002. ¿¿Cónsume mucha batería Radar COVID??](#002)
   * [B. Funcionamiento de Radar COVID](#funcionamiento-de-radar-covid)
   * [C. Errores de Radar COVID](#errores-de-radar-covid)
   * [D. Información sobre Radar STATS](#información-sobre-radar-stats)
@@ -320,5 +321,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.474
+- Versión: 0.4741
 - Fecha actualización: 15/10/2020
