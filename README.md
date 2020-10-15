@@ -276,7 +276,7 @@ La implementación europea ya está en curso y, hasta donde yo se, existe un “
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Borrador | 08/10/2020 | [Twitter @YoryoBass](https://twitter.com/YoryoBass/status/1314242987367563264) |
+| Borrador | 08/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1314242987367563264) |
 
 ### Implantación en Comunidades Autónomas
 
