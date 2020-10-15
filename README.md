@@ -6,7 +6,7 @@ _Proyecto de la [Unidad Tecnológica del Voluntariado](utv.com.es)_
 
 Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sobre su funcionamiento cómo su arquitectura más técnica. Va dirigida a las personas que no encuentan información oficial suficiente. Responde también a preguntas sobre el proyecto Radar STATS.
 
-# Índice de contenidos
+## Índice
 
 - [Preguntas Frecuentes](#preguntas-frecuentes)
   * [Instalación](#instalación)
