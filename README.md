@@ -6,6 +6,21 @@ _Proyecto de la [Unidad Tecnológica del Voluntariado](utv.com.es)_
 
 Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sobre su funcionamiento cómo su arquitectura más técnica. Va dirigida a las personas que no encuentan información oficial suficiente. Responde también a preguntas sobre el proyecto Radar STATS.
 
+# Índice de contenidos
+
+- [Preguntas Frecuentes](#preguntas-frecuentes)
+  * [Instalación](#instalación)
+  * [Funcionamiento de Radar COVID](#funcionamiento-de-radar-covid)
+  * [Errores de Radar COVID](#errores-de-radar-covid)
+  * [Información sobre Radar STATS](#información-sobre-radar-stats)
+  * [Información técnica sobre Radar COVID](#información-técnica-sobre-radar-covid)
+  * [Internacional](#internacional)
+  * [Implantación en Comunidades Autónomas](#implantación-en-comunidades-autnomas)
+- [Enlaces Oficiales](#enlaces-oficiales)
+- [Glosario](#glosario)
+- [Reglas de Estilo](#reglas-de-estilo)
+- [Versión](#versión)
+
 ## Preguntas Frecuentes
 
 ### Instalación
@@ -262,6 +277,8 @@ La implementación europea ya está en curso y, hasta donde yo se, existe un “
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
 | Borrador | 08/10/2020 | [Twitter @YoryoBass](https://twitter.com/YoryoBass/status/1314242987367563264) |
+
+### Implantación en Comunidades Autónomas
 
 #### 901. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
 
