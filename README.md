@@ -297,27 +297,27 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Murcia | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
 | Pais Vasco | Sí | [El Correo](https://www.elcorreo.com/sociedad/salud/directo-rueda-prensa-20200928153045-nt.html) | 03/10/2020 |
 
-### Enlaces Oficiales
+## Enlaces Oficiales
 
 - [Radar COVID](https://radarcovid.gob.es/preguntas-frecuentes)
 - [Radar COVID - GitHub](https://github.com/radarcovid)
 - [Preguntas y respuestas sobre Radar COVID](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
 
-### Glosario
+## Glosario
 
 - **CCAA**: Comunidades autónomas españolas
 - **DP3T**: Es un protocolo de código abierto desarrollado en respuesta a la pandemia de coronavirus 2019-2020 para facilitar el [rastreo digital de contactos](https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preservar_la_privacidad) de los participantes infectados.
 - **TAN (Transaction Authorization Number)**: códigos de 12 cifras que da el sistema sanitario de las CCAA y sirve para comunicar un diagnóstico positivo.
 - **TEK (Temporary Exposure Key)**: Clave de exposición temporal. Un identificador aleatorio generado diariamente en el dispositivo que utilizan las aplicaciones de exposición como Radar COVID para detectar exposiciones y comunicar diagnósticos positivos.
 
-### Reglas de Estilo
+## Reglas de Estilo
 
 - Está página no está sometida a intereses y conveniencias de partidos políticos ni de instituciones de gobierno u otras.
 - Está página no cuenta con financiación ni otras limitaciones procedentes de empresas u otros intereses económicos.
 - La página quiere estar redactada en un lenguaje claro y pedagógico, sin términos en inglés ni abreviaturas no explicadas.
 - Las respuestas deben de tener una fuente de la que se han obtenido (salvo excepciones) y una fecha en la que se han redactado.
 
-### Versión
+## Versión
 
 - Versión: 0.474
 - Fecha actualización: 15/10/2020
