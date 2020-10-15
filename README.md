@@ -246,7 +246,7 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
  - [API (librerías) para programar el intercambio](https://developer.apple.com/documentation/exposurenotification)
  - [FAQ sobre notificaciones de exposición](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-FAQv1.2.pdf)
 
-#### Protocolo DP-3T
+##### Protocolo DP-3T
 
  - [Descripción del protocolo](https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Data%20Protection%20and%20Security.pdf)
  - [Documentación](https://github.com/DP-3T/documents/)
