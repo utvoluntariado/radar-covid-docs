@@ -89,7 +89,7 @@ Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que pro
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Borrador | - | - |
+| Borrador | | |
 
 #### 199. Nuevas versiones de Radar COVID
 
