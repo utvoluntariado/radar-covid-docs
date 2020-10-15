@@ -1,6 +1,6 @@
 # Radar COVID – Documentación
  
-_Proyecto de la [Unidad Tecnológica del Voluntariado](http://utv.com.es)._
+_Proyecto de la [Unidad Tecnológica de Voluntariado](http://utv.com.es)._
  
 ## Objeto
 
