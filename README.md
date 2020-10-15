@@ -15,7 +15,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
   * [Información sobre Radar STATS](#información-sobre-radar-stats)
   * [Información técnica sobre Radar COVID](#información-técnica-sobre-radar-covid)
   * [Internacional](#internacional)
-  * [Implantación en Comunidades Autónomas](#implantación-en-comunidades-autnomas)
+  * [Implantación en Comunidades Autónomas](#implantación-en-comunidades-autónomas)
 - [Enlaces Oficiales](#enlaces-oficiales)
 - [Glosario](#glosario)
 - [Reglas de Estilo](#reglas-de-estilo)
