@@ -211,7 +211,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | --- | --- | --- |
 | Borrador | 11/10/2020 | [Ministerio de Salud](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf), [Google Support](https://support.google.com/googleplay/answer/9888358?hl=es), [Radar COVID](https://radarcovid.gob.es/politica-de-privacidad), [Apple](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf) |
 
-### Aplicaciones Internacionales
+### Internacional
 
  #### 501. Aplicaciones similares a Radar COVID en otros países
 
@@ -255,7 +255,7 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
 | --- | --- | --- |
 | Aprobado | 09/10/2020 | |
 
-### 503. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
+#### 503. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
 
 La implementación europea ya está en curso y, hasta donde yo se, existe un “turno” para que cada país se integre. Se está trabajando en ello a nivel europeo. Mientras tanto la única solución es usar las apps de cada país.
 
