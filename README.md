@@ -213,7 +213,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
 ### Internacional
 
- #### 501. Aplicaciones similares a Radar COVID en otros países
+#### 501. Aplicaciones similares a Radar COVID en otros países
 
 | País | Aplicación | Enlaces Relacionados |
 | --- | --- | --- |
