@@ -154,7 +154,7 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
 Radar STATS es un proyecto desarrollada por @pvieito que publica sus resultados en Twitter en la cuenta [@RadarCOVIDSTATS](https://twitter.com/RadarCOVIDSTATS) cada hora.
 
-Estima cuántos pacientes han comunicado su diagnóstico positivo ("Shared diagnoses"), cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo ("Uploaded TEKs") y cuál es el porcentaje de los infectados que han comunicado su positivo ("Usage ratio"). Lo calcula para el último dia y los últimos 7 días.
+Estima cuántos pacientes han comunicado su diagnóstico positivo ("Shared Diagnoses"), cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo ("Uploaded TEKs") y cuál es el porcentaje de los infectados que han comunicado su positivo ("Usage Ratio"). Lo calcula para el último dia y los últimos 7 días.
 
 Radar STATS es un proyecto de código abierto. Contiene un histórico de los datos y documentación sobre el significado de las estadísticas.
 
