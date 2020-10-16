@@ -41,7 +41,7 @@ No se puede instalar en:
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 06/10/2020 | [Xataka](https://www.xataka.com/basics/que-moviles-puedes-no-puedes-instalar-app-radar-covid), [App Store](https://apps.apple.com/es/app/radar-covid/id1520443509), [SEDIA (Twitter)](https://twitter.com/SEDIAgob/status/1295277894424551424) |
+| Aprobado | 06/10/2020 | [Xataka](https://www.xataka.com/basics/que-moviles-puedes-no-puedes-instalar-app-radar-covid), [App Store](https://apps.apple.com/es/app/radar-covid/id1520443509), [Twitter (@SEDIAgob)](https://twitter.com/SEDIAgob/status/1295277894424551424) |
  
 #### <a name="FAQ-A-2"></a>A.2. ¿Cónsume mucha batería Radar COVID?
 
