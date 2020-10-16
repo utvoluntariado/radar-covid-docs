@@ -9,11 +9,11 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 ## Índice
 
 - [Preguntas Frecuentes](#preguntas-frecuentes)
-  * [A. Instalación](#instalación)
-    * [001. ¿En qué móviles se puede instalar?](#001)
-    * [002. ¿Cónsume mucha batería Radar COVID?](#002)
-    * [003. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#003)
-  * [B. Funcionamiento de Radar COVID](#funcionamiento-de-radar-covid)
+  * [A. Instalación](#FAQ-A)
+    * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
+    * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
+    * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
+  * [B. Funcionamiento de Radar COVID](#FAQ-B)
   * [C. Errores de Radar COVID](#errores-de-radar-covid)
   * [D. Información sobre Radar STATS](#información-sobre-radar-stats)
   * [E. Información técnica sobre Radar COVID](#información-técnica-sobre-radar-covid)
@@ -26,9 +26,9 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 
 ## Preguntas Frecuentes
 
-### Instalación
+### <a name="FAQ-A"></a>A. Instalación
 
-#### 001. ¿En qué móviles se puede instalar?
+#### <a name="FAQ-A-1"></a>A.1. ¿En qué móviles se puede instalar?
  
 - En los móviles con Android 6.0 o posterior.
 - En los móviles iPhone requiere un sistema 13.5 o posterior.
@@ -43,7 +43,7 @@ No se puede instalar en:
 | --- | --- | --- |
 | Aprobado | 06/10/2020 | [Xataka](https://www.xataka.com/basics/que-moviles-puedes-no-puedes-instalar-app-radar-covid), [App Store](https://apps.apple.com/es/app/radar-covid/id1520443509), [SEDIA (Twitter)](https://twitter.com/SEDIAgob/status/1295277894424551424) |
  
-#### 002. ¿Cónsume mucha batería Radar COVID?
+#### <a name="FAQ-A-2"></a>A.2. ¿Cónsume mucha batería Radar COVID?
 
 No. En general, el protocolo Bluetooth es muy robusto y el rendimiento no se degrada demasiado a menos que haya cientos de dispositivos en una proximidad cercana.
 
@@ -53,7 +53,7 @@ La evidencia del acierto de la elección de Bluetooth de baja energía (BLE) par
 | --- | --- | --- |
 | Aprobado | 03/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1312445670922489857) |
 
-#### 003. ¿Tiene fallos de seguridad o privacidad Radar COVID?
+#### <a name="FAQ-A-3"></a>A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?
 
 Parece que no tiene fallos de seguridad o privacidad. Diversos expertos han examinado el código y no consta que haya resquicios de seguridad. Como ejemplo incluimos un informe de la [Organización de Consumidores y Usuarios](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#) transmitido por la agencia [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html).
 
@@ -63,9 +63,9 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 | --- | --- | --- |
 | Aprobado | 08/10/2020 | [OCU](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#), [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html)[Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) |
 
-### Funcionamiento de Radar COVID
+### <a name="FAQ-B"></a>B. Funcionamiento de Radar COVID
 
-#### 101. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?
+#### <a name="FAQ-B-1"></a>B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?
 
  Sí, pero los contactos estrechos anteriores a la instalación no recibirán ningún aviso.
 
@@ -75,7 +75,7 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 | --- | --- | --- |
 | Aprobado | 03/10/2020 | [Twitter (@pvieito)](https://twitter.com/pvieito/status/1311026303643062272) |
 
-#### 102. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?
+#### <a name="FAQ-B-2"></a>B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?
 
  La notificación a mi móvil en cuanto mi contacto ha comunicado su positivo, sino cuando el servidor envía las actualizaciones a los móviles, y eso sucede dos veces al día:
 
@@ -86,7 +86,7 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 | --- | --- | --- |
 | Aprobado | 03/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1310517441752182784) |
 
-#### 103. Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?
+#### <a name="FAQ-B-3"></a>B.3. Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?
 
 Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que proporciona códigos a los positivos y esa persona lo ha comunicado recibirá notificaciones de contacto alto.
 
@@ -94,7 +94,7 @@ Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que pro
 | --- | --- | --- |
 | Borrador | | |
 
-#### 199. Nuevas versiones de Radar COVID
+#### <a name="FAQ-B-4"></a>B.4. Nuevas versiones de Radar COVID
 
  En las direcciones de descarga de Google y Apple, en la parte inferior, aparece el número de versión que estamos descargando.
 
@@ -112,9 +112,9 @@ Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que pro
 | --- | --- | --- |
 | Aprobado | 09/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1314476417946660864) |
 
-### Errores de Radar COVID
+### <a name="FAQ-C"></a>C. Errores de Radar COVID
 
-#### 201. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”
+#### <a name="FAQ-C-1"></a>C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”
 
  Solución: Ir a Ajustes > Mantenimiento dispositivo > Batería
 
@@ -125,7 +125,7 @@ Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que pro
 | --- | --- | --- |
 | Aprobado | 05/10/2020 | [Business Insider](https://www.businessinsider.es/configurar-radarcovid-app-rastreo-contactos-no-tan-facil-504213) |
 
-#### 202. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”
+#### <a name="FAQ-C-2"></a>C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”
 
  Una o varias de estas soluciones han funcionado:
 
@@ -138,9 +138,9 @@ Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que pro
 | --- | --- | --- |
 | Aprobado | 06/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1311959104731189250) |
 
-### Información sobre Radar STATS
+### <a name="FAQ-C"></a>D. Información sobre Radar STATS
 
-#### 301. ¿Qué hace Radar STATS?
+#### <a name="FAQ-D-1"></a>D.1. ¿Qué hace Radar STATS?
 
 Radar STATS es un proyecto desarrollada por @pvieito que publica sus resultados en Twitter en la cuenta @RadarCOVIDSTATS cada hora.
 
@@ -154,9 +154,9 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 | --- | --- | --- |
 | Aprobado | 08/10/2020 | [Radar STATS](https://github.com/Radar-STATS/Radar-STATS#documentation), [Radar STATS – iOS](https://github.com/Radar-STATS/Radar-STATS-iOS) |
 
-### Información técnica sobre Radar COVID
+### <a name="FAQ-E"></a>E. Información técnica sobre Radar COVID
 
-#### 401. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?
+#### <a name="FAQ-E-1"></a>E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?
 
  En Android con 8.0.0:
 
@@ -176,7 +176,7 @@ Una "Comprobación de exposición" es similar a:
 }
 ```
 
-#### 402. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?
+#### <a name="FAQ-E-1"></a>E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?
 
  En iPhone con iOS 13.7:
 
@@ -196,7 +196,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 ]
 ```
 
-#### 403. ¿Qué es una comprobación de exposición?
+#### <a name="FAQ-E-3"></a>E.3. ¿Qué es una comprobación de exposición?
 
  Es la comprobación de si alguno de los identificadores aleatorios que mi móvil ha captado de otros móviles cercanos corresponde a alguien que ha comunicado su contagio después de haber estado cerca de mi móvil. Las preguntas 401 y 402 muestran cómo puedo ver el listado de **comprobaciones de exposición**. La pregunta 420 (apartado 2) indica cómo se calculan estas comprobaciones y muestra un ejemplo de comprobaciones tras una descarga de diagnósticos positivos del servidor de diagnósticos positivos. 
 
@@ -204,7 +204,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | --- | --- | --- |
 | Borrador | 12/10/2020 |  |
 
-#### 420. Funcionamiento técnico de Radar COVID
+#### <a name="FAQ-E-4"></a>E.4. Funcionamiento técnico de Radar COVID
 
 1. Cada móvil con Radar Covid instalado y Bluetooth activado genera, cada 10 minutos aproximadamente, identificadores aleatorios que se intercambian con otros móviles que están activados y a menos de 2 metros. Cada móvil almacena durante 14 días sus propios identificadores aleatorios y los de los móviles que han estado cerca.
 
@@ -229,9 +229,9 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | --- | --- | --- |
 | Borrador | 11/10/2020 | [Ministerio de Salud](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf), [Google Support](https://support.google.com/googleplay/answer/9888358?hl=es), [Radar COVID](https://radarcovid.gob.es/politica-de-privacidad), [Apple](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf) |
 
-### Internacional
+### <a name="FAQ-F"></a>F. Internacional
 
-#### 501. Aplicaciones similares a Radar COVID en otros países
+#### <a name="FAQ-F-1"></a>F.1. Aplicaciones similares a Radar COVID en otros países
 
 | País | Aplicación | Enlaces Relacionados |
 | --- | --- | --- |
@@ -244,7 +244,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | --- | --- | --- |
 | Aprobado | 09/10/2020 | |
 
-#### 502. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth
+#### <a name="FAQ-F-2"></a>F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth
 
 Documentos técnicos que describen el intercambio de identificadores efímeros entre teléfonos Android e iPhone, intercambio basado en el protocolo DP-3T (Rastreo de proximidad descentralizado para preservar la privacidad):
 
@@ -273,7 +273,7 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
 | --- | --- | --- |
 | Aprobado | 09/10/2020 | |
 
-#### 503. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
+#### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
 
 La implementación europea ya está en curso y, hasta donde yo se, existe un “turno” para que cada país se integre. Se está trabajando en ello a nivel europeo. Mientras tanto la única solución es usar las apps de cada país.
 
@@ -281,9 +281,9 @@ La implementación europea ya está en curso y, hasta donde yo se, existe un “
 | --- | --- | --- |
 | Borrador | 08/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1314242987367563264) |
 
-### Implantación en Comunidades Autónomas
+### <a name="FAQ-G"></a>G. Implantación en Comunidades Autónomas
 
-#### 901. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
+#### <a name="FAQ-G-1"></a>G.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
 
 La siguiente tabla contiene las comunidades que entregan el código necesario (al menos en el 50% de los casos) para comunicar que diagnósticos positivos en Radar COVID:
 
