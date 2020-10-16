@@ -36,6 +36,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 - [Enlaces Oficiales](#enlaces-oficiales)
 - [Glosario](#glosario)
 - [Reglas de Estilo](#reglas-de-estilo)
+- [Contacto y colaboradores](#contacto)
 - [Versión](#versión)
 
 ## Preguntas Frecuentes
@@ -355,7 +356,13 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 - La página quiere estar redactada en un lenguaje claro y pedagógico, sin términos en inglés ni abreviaturas no explicadas.
 - Las respuestas deben de tener una fuente de la que se han obtenido (salvo excepciones) y una fecha en la que se han redactado.
 
+## <a name="contacto"></a> Contacto y colaboradores
+
+email: RadarCOVIDvoluntarios@gmail.com
+[Contribuyen](https://github.com/utvoluntariado/radar-covid-docs/)
+
+
 ## Versión
 
-- Versión: 0.481
+- Versión: 0.9 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 16/10/2020
