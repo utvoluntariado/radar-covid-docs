@@ -358,8 +358,8 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## <a name="contacto"></a> Contacto y colaboradores
 
-email: RadarCOVIDvoluntarios@gmail.com
-[Contribuyen](https://github.com/utvoluntariado/radar-covid-docs/)
+- email: RadarCOVIDvoluntarios@gmail.com
+- [Contribuyen](https://github.com/utvoluntariado/radar-covid-docs/)
 
 
 ## Versión
