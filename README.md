@@ -100,14 +100,14 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 
 #### <a name="FAQ-B-2"></a>B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?
 
- La notificación a mi móvil en cuanto mi contacto ha comunicado su positivo, sino cuando el servidor envía las actualizaciones a los móviles, y eso sucede dos veces al día:
+ La notificación a mi móvil no se produce en cuanto mi contacto ha comunicado su positivo, sino cuando el servidor envía las actualizaciones a los móviles, y eso sucede dos veces al día:
 
  - Entre las 6h y las 18h
  - Entre las 18h y las 6h
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 03/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1310517441752182784) |
+| Aprobado | 16/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1310517441752182784) |
 
 #### <a name="FAQ-B-3"></a>B.3. Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?
 
@@ -223,7 +223,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
 #### <a name="FAQ-E-3"></a>E.3. ¿Qué es una comprobación de exposición?
 
- Es la comprobación de si alguno de los identificadores aleatorios que mi móvil ha captado de otros móviles cercanos corresponde a alguien que ha comunicado su contagio después de haber estado cerca de mi móvil. Las preguntas 401 y 402 muestran cómo puedo ver el listado de **comprobaciones de exposición**. La pregunta 420 (apartado 2) indica cómo se calculan estas comprobaciones y muestra un ejemplo de comprobaciones tras una descarga de diagnósticos positivos del servidor de diagnósticos positivos. 
+ Es la comprobación de si alguno de los identificadores aleatorios que mi móvil ha captado de otros móviles cercanos corresponde a alguien que ha comunicado su contagio después de haber estado cerca de mi móvil. Las preguntas E.1 y E.2 muestran cómo puedo ver el listado de **comprobaciones de exposición**. La pregunta E.4 (apartado 2) indica cómo se calculan estas comprobaciones y muestra un ejemplo de comprobaciones tras una descarga de diagnósticos positivos del servidor de diagnósticos positivos. 
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -364,5 +364,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.9 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Versión: 0.901 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 16/10/2020
