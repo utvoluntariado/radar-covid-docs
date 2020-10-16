@@ -45,9 +45,13 @@ No se puede instalar en:
  
 #### <a name="FAQ-A-2"></a>A.2. ¿Cónsume mucha batería Radar COVID?
 
-No. En general, el protocolo Bluetooth es muy robusto y el rendimiento no se degrada demasiado a menos que haya cientos de dispositivos en una proximidad cercana.
+No.
 
-La evidencia del acierto de la elección de Bluetooth de baja energía (BLE) para ser usado en aplicaciones de rastreo de contactos es apabullante.
+[@YoryoBass)](https://twitter.com/YoryoBass/status/1312445670922489857):
+
+> "En general, el protocolo Bluetooth es muy robusto y el rendimiento no se degrada demasiado a menos que haya cientos de dispositivos en una proximidad cercana."
+> 
+> La evidencia del acierto de la elección de Bluetooth de baja energía (BLE) para ser usado en aplicaciones de rastreo de contactos es apabullante.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -69,7 +73,9 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 
  Sí, pero los contactos estrechos anteriores a la instalación no recibirán ningún aviso.
 
- Recordemos que Radar COVID tiene que estar instalada y activada días antes del diagnóstico para que al compartirlo en la app, haya TEKs (Clave de exposición temporal o identificador generado diariamente en el dispositivo) de días previos que subir al servidor. Si la instalación se hace a posteriori no sirve para avisar a los contactos de riesgo.
+[@pvieito](https://twitter.com/pvieito/status/1311026303643062272):
+
+> Recordemos que Radar COVID tiene que estar instalada y activada días antes del diagnóstico para que al compartirlo en la app, haya TEKs (Clave de exposición temporal o identificador generado diariamente en el dispositivo) de días previos que subir al servidor. Si la instalación se hace a posteriori no sirve para avisar a los contactos de riesgo.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -88,7 +94,7 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 
 #### <a name="FAQ-B-3"></a>B.3. Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?
 
-Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que proporciona códigos a los positivos y esa persona lo ha comunicado recibirá notificaciones de contacto alto.
+Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que proporciona códigos a los positivos y esa persona lo ha comunicado recibirá notificaciones de contacto alto.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -100,13 +106,15 @@ Sí.Si usted ha estado en contacto con una persona que vive en otra CCAA que pro
 
  A día 09/10/2020 en Android es 1.0.7 y en iOS 1.0.8:
 
- - Habilita la introducción de fecha de inicio de síntomas o de diagnóstico tras hacerte el PCR
- - Actualiza la versión de #DP3T
- - Introduce implementaciones en materia de accesibilidad
- - Resuelve algunos problemas de funcionamiento
- - La app ahora enviará de forma automática positivos ficticios al servidor
- - De esa manera, será imposible distinguir qué positivos son reales en caso de ataque
- - Al comunicar tu positivo nunca nadie podrá saber que fuiste tú
+[@AppRadarCovid](https://twitter.com/AppRadarCovid/status/1314476417946660864):
+
+>  - Habilita la introducción de fecha de inicio de síntomas o de diagnóstico tras hacerte el PCR
+>  - Actualiza la versión de #DP3T
+>  - Introduce implementaciones en materia de accesibilidad
+>  - Resuelve algunos problemas de funcionamiento
+>  - La app ahora enviará de forma automática positivos ficticios al servidor
+>  - De esa manera, será imposible distinguir qué positivos son reales en caso de ataque
+>  - Al comunicar tu positivo nunca nadie podrá saber que fuiste tú
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -275,7 +283,9 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
 
 #### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
 
-La implementación europea ya está en curso y, hasta donde yo se, existe un “turno” para que cada país se integre. Se está trabajando en ello a nivel europeo. Mientras tanto la única solución es usar las apps de cada país.
+[@YoryoBass](https://twitter.com/YoryoBass/status/1314242987367563264):
+
+> La implementación europea ya está en curso y, hasta donde yo se, existe un “turno” para que cada país se integre. Se está trabajando en ello a nivel europeo. Mientras tanto la única solución es usar las apps de cada país.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
