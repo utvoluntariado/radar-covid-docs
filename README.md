@@ -22,7 +22,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
     * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
   * [D. Información sobre Radar STATS](#FAQ-D)
-    * [D.1. Nuevas versiones de Radar COVID](#FAQ-D-1)
+    * [D.1. ¿Qué hace Radar STATS?](#FAQ-D-1)
   * [E. Información técnica sobre Radar COVID](#FAQ-E)
      * [E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?](#FAQ-E-1)
      * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
@@ -357,5 +357,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.48
+- Versión: 0.481
 - Fecha actualización: 16/10/2020
