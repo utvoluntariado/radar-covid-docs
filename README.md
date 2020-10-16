@@ -8,7 +8,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 
 ## Índice
 
-- [Preguntas Frecuentes](#preguntas-frecuentes)
+- [Preguntas frecuentes](#preguntas-frecuentes)
   * [A. Instalación de Radar COVID](#FAQ-A)
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
@@ -33,18 +33,18 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
     * [F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?](#FAQ-F-3)
   * [Z. Implantación en Comunidades Autónomas](#FAQ-Z)
-- [Enlaces Oficiales](#enlaces-oficiales)
+- [Enlaces oficiales](#enlaces-oficiales)
 - [Glosario](#glosario)
-- [Reglas de Estilo](#reglas-de-estilo)
+- [Reglas de estilo](#reglas-de-estilo)
 - [Contacto y colaboradores](#contacto)
 - [Versión](#versión)
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### <a name="FAQ-A"></a>A. Instalación de Radar COVID
 
 #### <a name="FAQ-A-1"></a>A.1. ¿En qué móviles se puede instalar?
- 
+
 - En los móviles con Android 6.0 o posterior.
 - En los móviles iPhone requiere un sistema 13.5 o posterior.
  
@@ -336,7 +336,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Pais Vasco | Sí | [El Correo](https://www.elcorreo.com/sociedad/salud/directo-rueda-prensa-20200928153045-nt.html) | 03/10/2020 |
 | La Rioja |    |   | 03/10/2020 |
 
-## Enlaces Oficiales
+## Enlaces oficiales
 
 - [Radar COVID radarcovid.gob.es](https://radarcovid.gob.es/preguntas-frecuentes)
 - [Radar COVID - GitHub - Código abierto](https://github.com/radarcovid)
@@ -349,7 +349,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 - **TAN (Transaction Authorization Number)**: códigos de 12 cifras que da el sistema sanitario de las CCAA y sirve para comunicar un diagnóstico positivo.
 - **TEK (Temporary Exposure Key)**: Clave de exposición temporal. Un identificador aleatorio generado diariamente en el dispositivo que utilizan las aplicaciones de exposición como Radar COVID para detectar exposiciones y comunicar diagnósticos positivos.
 
-## Reglas de Estilo
+## Reglas de estilo
 
 - Está página no está sometida a intereses y conveniencias de partidos políticos ni de instituciones de gobierno u otras.
 - Está página no cuenta con financiación ni otras limitaciones procedentes de empresas u otros intereses económicos.
@@ -358,9 +358,8 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## <a name="contacto"></a> Contacto y colaboradores
 
-- email: RadarCOVIDvoluntarios@gmail.com
+- Email: <RadarCOVIDvoluntarios@gmail.com>
 - [Contribuyen](https://github.com/utvoluntariado/radar-covid-docs/)
-
 
 ## Versión
 
