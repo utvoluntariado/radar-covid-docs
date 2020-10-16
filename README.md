@@ -14,11 +14,25 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
   * [B. Funcionamiento de Radar COVID](#FAQ-B)
+    * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
+    * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
+    * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
+    * [B.4. Nuevas versiones de Radar COVID](#FAQ-B-4)
   * [C. Errores de Radar COVID](#FAQ-C)
+    * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
+    * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
   * [D. Información sobre Radar STATS](#FAQ-D)
+    * [D.1. Nuevas versiones de Radar COVID](#FAQ-D-1)
   * [E. Información técnica sobre Radar COVID](#FAQ-E)
+     * [E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?](#FAQ-E-1)
+     * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
+     * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-2)
+     * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-2)
   * [F. Internacional](#FAQ-F)
-  * [G. Implantación en Comunidades Autónomas](#FAQ-G)
+    * [F.1. Aplicaciones similares a Radar COVID en otros países](#FAQ-F-1)
+    * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
+    * [F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?](#FAQ-F-3)
+  * [Z. Implantación en Comunidades Autónomas](#FAQ-Z)
 - [Enlaces Oficiales](#enlaces-oficiales)
 - [Glosario](#glosario)
 - [Reglas de Estilo](#reglas-de-estilo)
@@ -293,9 +307,9 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
 | --- | --- | --- |
 | Borrador | 08/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1314242987367563264) |
 
-### <a name="FAQ-G"></a>G. Implantación en Comunidades Autónomas
+### <a name="FAQ-Z"></a>Z. Implantación en Comunidades Autónomas
 
-#### <a name="FAQ-G-1"></a>G.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
+#### <a name="FAQ-Z-1"></a>Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
 
 La siguiente tabla contiene las comunidades que entregan el código necesario (al menos en el 50% de los casos) para comunicar que diagnósticos positivos en Radar COVID:
 
@@ -323,9 +337,9 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Enlaces Oficiales
 
-- [Radar COVID](https://radarcovid.gob.es/preguntas-frecuentes)
-- [Radar COVID - GitHub](https://github.com/radarcovid)
-- [Preguntas y respuestas sobre Radar COVID](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
+- [Radar COVID radarcovid.gob.es](https://radarcovid.gob.es/preguntas-frecuentes)
+- [Radar COVID - GitHub - Código abierto](https://github.com/radarcovid)
+- [Preguntas y respuestas sobre Radar COVID www.mscbs.gob.es](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
 
 ## Glosario
 
@@ -343,5 +357,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.4743
-- Fecha actualización: 15/10/2020
+- Versión: 0.48
+- Fecha actualización: 16/10/2020
