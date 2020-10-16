@@ -8,7 +8,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 
 ## Índice
 
-- [Preguntas frecuentes](#preguntas-frecuentes)
+- [__Preguntas frecuentes__](#preguntas-frecuentes)
   * [__A. Instalación de Radar COVID__](#FAQ-A)
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
@@ -18,25 +18,25 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
     * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
     * [B.4. Nuevas versiones de Radar COVID](#FAQ-B-4)
-  * [C. Errores de Radar COVID](#FAQ-C)
+  * [__C. Errores de Radar COVID__](#FAQ-C)
     * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
     * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
-  * [D. Información sobre Radar STATS](#FAQ-D)
+  * [__D. Información sobre Radar STATS__](#FAQ-D)
     * [D.1. ¿Qué hace Radar STATS?](#FAQ-D-1)
-  * [E. Información técnica sobre Radar COVID](#FAQ-E)
+  * [__E. Información técnica sobre Radar COVID__](#FAQ-E)
      * [E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?](#FAQ-E-1)
      * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
      * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-2)
      * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-2)
-  * [F. Internacional](#FAQ-F)
+  * [__F. Internacional__](#FAQ-F)
     * [F.1. Aplicaciones similares a Radar COVID en otros países](#FAQ-F-1)
     * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
     * [F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?](#FAQ-F-3)
-  * [Z. Implantación en Comunidades Autónomas](#FAQ-Z)
-- [Enlaces oficiales](#enlaces-oficiales)
-- [Glosario](#glosario)
-- [Reglas de estilo](#reglas-de-estilo)
-- [Contacto y colaboradores](#contacto)
+  * [__Z. Implantación en Comunidades Autónomas__](#FAQ-Z)
+- [__Enlaces oficiales__](#enlaces-oficiales)
+- [__Glosario__](#glosario)
+- [__Reglas de estilo__](#reglas-de-estilo)
+- [__Contacto y colaboradores__](#contacto)
 - [Versión](#versión)
 
 ## Preguntas frecuentes
@@ -341,6 +341,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 - [Radar COVID (radarcovid.gob.es)](https://radarcovid.gob.es/preguntas-frecuentes)
 - [Radar COVID - GitHub - Código abierto](https://github.com/radarcovid)
 - [Preguntas y respuestas sobre Radar COVID (www.mscbs.gob.es)](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
+- [Soporte en Twitter @AppRadarCovid](https://twitter.com/AppRadarCovid/with_replies)
 
 ## Glosario
 
@@ -363,5 +364,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.902 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Versión: 0.903 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 16/10/2020
