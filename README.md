@@ -9,7 +9,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 ## Índice
 
 - [Preguntas Frecuentes](#preguntas-frecuentes)
-  * [A. Instalación](#FAQ-A)
+  * [A. Instalación de Radar COVID](#FAQ-A)
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
@@ -26,7 +26,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 
 ## Preguntas Frecuentes
 
-### <a name="FAQ-A"></a>A. Instalación
+### <a name="FAQ-A"></a>A. Instalación de Radar COVID
 
 #### <a name="FAQ-A-1"></a>A.1. ¿En qué móviles se puede instalar?
  
