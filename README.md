@@ -63,7 +63,7 @@ No.
 
 Parece que no tiene fallos de seguridad o privacidad. Diversos expertos han examinado el código y no consta que haya resquicios de seguridad. Como ejemplo incluimos un informe de la [Organización de Consumidores y Usuarios](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#) transmitido por la agencia [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html).
 
-Ha suscitado dudas que en Android obliga a tener activada la localización o ubicación. En este [enlace de Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) se indica que Android necesita tener los servicios de localización activos para que funcione la conexión de móviles por Bluetooth pero que Radar Covid no registra esta ubicación. En este [enlace](https://support.google.com/googleplay/answer/9888358?hl=es), visible también desde Android, se indica que con Android 11 "no es necesario activar los ajustes de ubicación".
+Ha suscitado dudas que en Android obliga a tener activada la localización o ubicación. En este [enlace de Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) se indica que Android necesita tener los servicios de localización activos para que funcione la conexión de móviles por Bluetooth pero que Radar COVID no registra esta ubicación. En este [enlace del soporte de Google](https://support.google.com/googleplay/answer/9888358?hl=es) se indica que con Android 11 "no es necesario activar los ajustes de ubicación".
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
