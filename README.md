@@ -9,11 +9,11 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 ## Índice
 
 - [Preguntas frecuentes](#preguntas-frecuentes)
-  * [A. Instalación de Radar COVID](#FAQ-A)
+  * [__A. Instalación de Radar COVID__](#FAQ-A)
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
-  * [B. Funcionamiento de Radar COVID](#FAQ-B)
+  * [__B. Funcionamiento de Radar COVID__](#FAQ-B)
     * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
     * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
     * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
@@ -363,5 +363,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.901 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Versión: 0.902 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 16/10/2020
