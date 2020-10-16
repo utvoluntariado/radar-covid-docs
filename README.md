@@ -263,7 +263,7 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
  - [Especificación de la emisión de Bluetooth](https://www.blog.google/documents/70/Exposure_Notification_-_Bluetooth_Specification_v1.2.2.pdf)
  - [Especificación de la generación de identificadores](https://blog.google/documents/69/Exposure_Notification_-_Cryptography_Specification_v1.2.1.pdf)
  - [API (librerías) para programar el intercambio](https://developers.google.com/android/exposure-notifications/exposure-notifications-api)
- - [FAQ de las notificaciones de exposición](https://www.blog.google/documents/63/Exposure_Notification_-_FAQ_v1.0.pdf)
+ - [FAQ sobre las notificaciones de exposición](https://www.blog.google/documents/63/Exposure_Notification_-_FAQ_v1.0.pdf)
  - [Formato de los ficheros de exposición](https://developers.google.com/android/exposure-notifications/exposure-key-file-format)
 
 ##### Apple
@@ -272,7 +272,7 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
  - [Especificación de la emisión de Bluetooth](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-BluetoothSpecificationv1.2.pdf)
  - [Especificación de la generación de identificadores](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf)
  - [API (librerías) para programar el intercambio](https://developer.apple.com/documentation/exposurenotification)
- - [FAQ sobre notificaciones de exposición](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-FAQv1.2.pdf)
+ - [FAQ sobre las notificaciones de exposición](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-FAQv1.2.pdf)
 
 ##### Protocolo DP-3T
 
