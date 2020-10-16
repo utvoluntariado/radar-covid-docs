@@ -61,7 +61,7 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 08/10/2020 | [OCU](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#), [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html)[Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) |
+| Aprobado | 08/10/2020 | [OCU](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#), [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html), [Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) |
 
 ### <a name="FAQ-B"></a>B. Funcionamiento de Radar COVID
 
