@@ -338,9 +338,9 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Enlaces oficiales
 
-- [Radar COVID radarcovid.gob.es](https://radarcovid.gob.es/preguntas-frecuentes)
+- [Radar COVID (radarcovid.gob.es)](https://radarcovid.gob.es/preguntas-frecuentes)
 - [Radar COVID - GitHub - Código abierto](https://github.com/radarcovid)
-- [Preguntas y respuestas sobre Radar COVID www.mscbs.gob.es](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
+- [Preguntas y respuestas sobre Radar COVID (www.mscbs.gob.es)](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
 
 ## Glosario
 
