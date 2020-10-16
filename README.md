@@ -47,10 +47,10 @@ No se puede instalar en:
 
 No.
 
-[@YoryoBass)](https://twitter.com/YoryoBass/status/1312445670922489857):
+[@YoryoBass](https://twitter.com/YoryoBass/status/1312445670922489857):
 
 > "En general, el protocolo Bluetooth es muy robusto y el rendimiento no se degrada demasiado a menos que haya cientos de dispositivos en una proximidad cercana."
-> 
+> …
 > La evidencia del acierto de la elección de Bluetooth de baja energía (BLE) para ser usado en aplicaciones de rastreo de contactos es apabullante.
 
 | Estado | Actualización | Fuentes |
