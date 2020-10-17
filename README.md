@@ -318,7 +318,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Comunidad Autónoma | Activo | Fuente | Fecha de actualización |
 | --- | --- | --- | --- |
 | Andalucía | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
-| Aragón | Sí | [Heraldo](https://www.heraldo.es/noticias/aragon/2020/09/04/aragon-app-aplicacion-radar-covid-provincia-zaragoza-huesca-teruel-1393869.html) | 15/10/2020 |
+| Aragón | Sí | Diversos medios indican informalmente que a partir del 15/10/2020 o del 16 en casi todo Aragón se darán los códigos. | 15/10/2020 |
 | Asturias |    |   | 03/10/2020 |
 | Baleares | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
 | Canarias | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
@@ -365,5 +365,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.904 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Versión: 0.905 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 17/10/2020
