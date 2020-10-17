@@ -34,6 +34,8 @@ La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que
 Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en RadarCOVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
 
 
-Fuente: https://twitter.com/AppRadarCovid/status/1317148304711376897
-Estado:Aprobado
-Fecha actualización: 17/10/2020
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 17/10/2020 | https://twitter.com/AppRadarCovid/status/1317148304711376897 |
+
+
