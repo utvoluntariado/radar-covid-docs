@@ -1,4 +1,4 @@
-** FAQ a revisar antes de ser publicadas
+# FAQ a revisar antes de ser publicadas
 
 #### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
 
@@ -8,7 +8,7 @@ _RadarCOVID se incorpora a las pruebas del marco de interoperabilidad de la Comi
 
 _Las pruebas se extenderán unas tres semanas (a partir del 16/10)_
 
-_ Una vez superadas, las apps de los Estados miembros adheridos serán compatibles_
+_Una vez superadas, las apps de los Estados miembros adheridos serán compatibles_
 
 Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad (párrafo 7)
 
