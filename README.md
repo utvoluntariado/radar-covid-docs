@@ -34,6 +34,8 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
     * [F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?](#FAQ-F-3)
   * [__Z. Implantación en Comunidades Autónomas__](#FAQ-Z)
+    * [Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo](#FAQ-Z-1)
+    * [Z.2. Cómo comunican las Comunidades Autónomas el código de 12 digitos](#FAQ-Z-2)
 - [__Enlaces oficiales__](#enlaces-oficiales)
 - [__Glosario__](#glosario)
 - [__Reglas de estilo__](#reglas-de-estilo)
@@ -337,6 +339,17 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Pais Vasco | Sí | [El Correo](https://www.elcorreo.com/sociedad/salud/directo-rueda-prensa-20200928153045-nt.html) | 03/10/2020 |
 | La Rioja |    |   | 03/10/2020 |
 
+#### <a name="FAQ-Z-2"></a>Z.2. Cómo comunican las Comunidades Autónomas el código de 12 digitos
+
+No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
+
+- **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
+- **Pais Vasco**: En el SMS en el Osakidetza comunica el resultado positivo.
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 17/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1314242987367563264) |
+
 ## Enlaces oficiales
 
 - [Radar COVID (radarcovid.gob.es)](https://radarcovid.gob.es/preguntas-frecuentes)
@@ -365,5 +378,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.905 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Versión: 0.91 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 17/10/2020
