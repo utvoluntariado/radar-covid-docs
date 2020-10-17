@@ -25,9 +25,13 @@ _Aunque puedes autorizar notificaciones de exposición de más de una autoridad 
 
 #### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
 
-Al comunicar un positivo, RadarCOVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado.  [AppRadarCovid](https://twitter.com/AppRadarCovid/status/1317050752439812097)
+NUEVO
+
+Al comunicar un positivo, RadarCOVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado.  [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317050752439812097).
 
 La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que RadarCOVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
+
+Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en RadarCOVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
 
 
 Fuente: https://twitter.com/AppRadarCovid/status/1317148304711376897
