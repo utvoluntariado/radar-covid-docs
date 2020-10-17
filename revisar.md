@@ -1,6 +1,8 @@
 # FAQ a revisar antes de ser publicadas
 
-#### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
+#### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española? 
+
+SUSTITUIR
 
 Según indica el servicio de soporte de Twitter @AppRadarCovid en este [tuit](https://twitter.com/AppRadarCovid/status/1317050752439812097):
 
