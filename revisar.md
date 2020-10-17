@@ -12,7 +12,7 @@ _Las pruebas se extenderán unas tres semanas (a partir del 16/10)_
 
 _Una vez superadas, las apps de los Estados miembros adheridos serán compatibles_
 
-@pvieito sospecha, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
+@pvieito intuye, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
 
 Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad, párrafo 7)
 
