@@ -1,4 +1,5 @@
 # Radar COVID – Documentación
+## Respuesta a Preguntas Frecuentes (FAQ)
  
 _Proyecto de la [Unidad Tecnológica de Voluntariado](http://utv.com.es)._
  
@@ -235,7 +236,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
     Hasta donde sabemos, no podemos ver si un móvil cercano nos ha enviado sus identificadores ni ver qué identificadores, propios o de terceros, tenemos almacenados. Por tanto, no podemos saber si nuestros móviles tienen bien instalada Radar Covid y tampoco podemos saber si nuestro vecino, desde una ventana cercana a la nuestra o desde el piso de arriba está intercambiando identificadores con nosotros.
 
- 2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas 401 y 402). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar Covid indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
+ 2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas E.1 y E.2). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar Covid indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
 
     Por tanto, si me comunican "Riesgo alto" ninguna autoridad ni ningún servidor me está enviando un mensaje. Es mi propio móvil quien genera las notificaciones, con la información descargada del servidor y los identificadores aleatorios de terceros que mi móvil tenia almacenados.
 
@@ -364,5 +365,5 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 
 ## Versión
 
-- Versión: 0.903 (version beta, de prueba; en 23/10/2020 será definitiva)
-- Fecha actualización: 16/10/2020
+- Versión: 0.904 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Fecha actualización: 17/10/2020
