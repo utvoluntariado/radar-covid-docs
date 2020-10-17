@@ -348,7 +348,7 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 17/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1314242987367563264) |
+| Aprobado | 17/10/2020 | --- |
 
 ## Enlaces oficiales
 
