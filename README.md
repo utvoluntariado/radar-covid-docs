@@ -27,8 +27,8 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
   * [__E. Información técnica sobre Radar COVID__](#FAQ-E)
      * [E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?](#FAQ-E-1)
      * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
-     * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-2)
-     * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-2)
+     * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-3)
+     * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-4)
   * [__F. Internacional__](#FAQ-F)
     * [F.1. Aplicaciones similares a Radar COVID en otros países](#FAQ-F-1)
     * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
@@ -204,7 +204,7 @@ Una "Comprobación de exposición" es similar a:
 }
 ```
 
-#### <a name="FAQ-E-1"></a>E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?
+#### <a name="FAQ-E-2"></a>E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?
 
  En iPhone con iOS 13.7:
 
@@ -378,5 +378,5 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 0.91 (version beta, de prueba; en 23/10/2020 será definitiva)
-- Fecha actualización: 17/10/2020
+- Versión: 0.911 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Fecha actualización: 19/10/2020
