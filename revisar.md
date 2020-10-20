@@ -14,7 +14,7 @@ _Una vez superadas, las apps de los Estados miembros adheridos serán compatible
 
 @pvieito intuye, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
 
-La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [APP de contactos] (https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
+La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
 
 Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad, párrafo 7)
 
