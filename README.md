@@ -268,9 +268,13 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | Irlanda | [CovidTracker](https://covidtracker.gov.ie/how-the-app-works/) | |
 | Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | |
 
+La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
+
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 09/10/2020 | |
+| Aprobado | 20/10/2020 | |
+| Aprobado | 20/10/2020 | https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904 |
+| Aprobado | 20/10/2020 | https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en |
 
 #### <a name="FAQ-F-2"></a>F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth
 
@@ -378,5 +382,5 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 0.911 (version beta, de prueba; en 23/10/2020 será definitiva)
-- Fecha actualización: 19/10/2020
+- Versión: 0.912 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Fecha actualización: 20/10/2020
