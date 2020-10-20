@@ -14,6 +14,8 @@ _Una vez superadas, las apps de los Estados miembros adheridos serán compatible
 
 @pvieito intuye, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
 
+La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [APP de contactos] (https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
+
 Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad, párrafo 7)
 
 _Aunque puedes autorizar notificaciones de exposición de más de una autoridad de salud pública, solo puedes tener activas las de una región simultáneamente. Recibirás notificaciones de posibles exposiciones conforme a los parámetros establecidos por la autoridad de salud pública de tu región activa. Para seleccionar o cambiar tu región activa, ve a Ajustes > Notificaciones de exposición_
@@ -22,6 +24,8 @@ _Aunque puedes autorizar notificaciones de exposición de más de una autoridad 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
 | Borrador | 17/10/2020 | Twitter indicados, Información en Radar COVID-iPhone |
+| Aprobado | 20/10/2020 | https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904 |
+| Aprobado | 20/10/2020 | https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en |
 
 #### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
 
@@ -37,5 +41,8 @@ Esta desactivación se produce incluso cuando se utiliza un código de 12 dígit
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
 | Aprobado | 17/10/2020 | https://twitter.com/AppRadarCovid/status/1317148304711376897 |
+
+
+Actualizado: 20/10/2020 version 1.1
 
 
