@@ -416,4 +416,4 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 - Versión: 0.922 (version beta, de prueba; en 23/10/2020 será definitiva)
 - Fecha actualización: 21/10/2020
-- [Histórico de cambios](resources/historia.md))
+- [Histórico de cambios](resources/historia.md)
