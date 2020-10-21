@@ -1,5 +1,7 @@
 # FAQ a revisar antes de ser publicadas
 
+Pasadas a PRODUCCION 21/10/2020 11:00
+
 #### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española? 
 
 SUSTITUIR
@@ -15,6 +17,8 @@ _Una vez superadas, las apps de los Estados miembros adheridos serán compatible
 @pvieito intuye, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
 
 La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
+
+Las APP Corona-Warn-App (Alemania) e Immuni (Italia) han sido actualizadas para funcionar con la interoperabilidad europea según se indica [aquí](https://twitter.com/pvieito/status/1318593010200924160)
 
 Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad, párrafo 7)
 
