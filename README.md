@@ -41,7 +41,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
 - [__Glosario__](#glosario)
 - [__Reglas de estilo__](#reglas-de-estilo)
 - [__Contacto y colaboradores__](#contacto)
-- [Versión](#versión)
+- [__Versión__](#versión)
 
 ## Preguntas frecuentes
 
