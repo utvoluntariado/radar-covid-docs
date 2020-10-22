@@ -14,6 +14,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
+    * [A.4. Alegaciones sobre privacidad y seguridad de RadarCovid.](#FAQ-A-4)
   * [__B. Funcionamiento de Radar COVID__](#FAQ-B)
     * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
     * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
@@ -87,6 +88,21 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
 | Aprobado | 08/10/2020 | [OCU](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#), [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html), [Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) |
+
+#### <a name="FAQ-A-4"></a>A.4 Alegaciones sobre privacidad y seguridad de RadarCovid.
+ 
+**A.4.1 El Pais avisa 22/10/2020** de "una brecha de seguridad" en Radar Covid: "si hay subida al servidor implica que el usuario es positivo. Quien tenga acceso al tráfico, por tanto, sabe quién lo es" [enlace](https://elpais.com/tecnologia/2020-10-22/la-app-radar-covid-ha-tenido-una-brecha-de-seguridad-desde-su-lanzamiento.html)
+
+Le contesta [en tuit @imartinezortiz](https://twitter.com/imartinezortiz/status/1319201482407923714): 
+> La noticia es alarmista. Amazon Web Services puede conocer la interacción, al igual que el proveedor de internet del usuario del teléfono ya que: 1) la resolución DNS por defecto no está cifrada, 2) las conexiones TLS, por defecto, también pueden saber el servidor de destino. Los datos enviados son anónimos y requerirían colaboración  para asignar un nombre a la IP origen (aunque hay otras maneras). Para eso existen los contratos con los proveedores de la nube, para que no miren la tubería, si no tendríamos los servidores debajo de la mesa. Los datos son anónimos y la comunicación está cifrada. El sustrato sobre el que se construye RadarCovid es el mismo que se utiliza en el resto de aplicaciones europeas.
+>
+
+También contesta [en tuit @pvieito](https://twitter.com/pvieito/status/1319224757619916800) 
+> Es totalmente cierto que el titular es alarmista (¿brecha de seguridad?) pero también que el protocolo DP3T se diseñó con el concepto de subidas de diagnóstico falsas precisamente para mitigar esta posibilidad y Radar COVID no las hacía hasta hace poco.
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 22/10/2020 | Enlace de El Pais y tuits citados |
 
 ### <a name="FAQ-B"></a>B. Funcionamiento de Radar COVID
 
@@ -414,6 +430,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 0.922 (version beta, de prueba; en 23/10/2020 será definitiva)
-- Fecha actualización: 21/10/2020
+- Versión: 0.93 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Fecha actualización: 22/10/2020
 - [Histórico de cambios](resources/historia.md)
