@@ -1,5 +1,9 @@
 # Historico de cambios
 
+22/10/2020 (versión 0.93)
+
+- NUEVA Incluir A.4 Alegaciones sobre privacidad y seguridad de RadarCovid
+
 21/10/2020 (versión 0.922)
 
 - Incluir este histórico
