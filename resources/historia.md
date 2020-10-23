@@ -1,5 +1,9 @@
 # Historico de cambios
 
+23/10/2020 (versión 1.0)
+
+- Entra en producción la version beta anterior adoptando el 1.0 Continuaran la evolución
+
 23/10/2020 (versión 0.931)
 
 - MODIFICAR. Incluir en A.4 la nota de @UTVoluntariado
