@@ -100,9 +100,11 @@ Le contesta [en tuit @imartinezortiz](https://twitter.com/imartinezortiz/status/
 También contesta [en tuit @pvieito](https://twitter.com/pvieito/status/1319224757619916800) 
 > Es totalmente cierto que el titular es alarmista (¿brecha de seguridad?) pero también que el protocolo DP3T se diseñó con el concepto de subidas de diagnóstico falsas precisamente para mitigar esta posibilidad y Radar COVID no las hacía hasta hace poco.
 
+La **Unidad Tecnológica de Voluntariado, @UTVoluntariado** [en este tuit](https://twitter.com/UTVoluntariado/status/1319552214776664071) y en esta nota [¿Es verdad que Amazon u otras empresas tienen o han tenido acceso a la información generada por Radar COVID?](https://github.com/utvoluntariado/radar-covid-docs/blob/prensa/20201022%20%5BEl%20Pais%5D.md) ha tratado de arrojar luz sobre la noticia publicada por El Pais.
+
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 22/10/2020 | Enlace de El Pais y tuits citados |
+| Aprobado | 23/10/2020 | Enlace de El Pais y tuits citados |
 
 ### <a name="FAQ-B"></a>B. Funcionamiento de Radar COVID
 
@@ -430,6 +432,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 0.93 (version beta, de prueba; en 23/10/2020 será definitiva)
-- Fecha actualización: 22/10/2020
+- Versión: 0.931 (version beta, de prueba; en 23/10/2020 será definitiva)
+- Fecha actualización: 23/10/2020
 - [Histórico de cambios](resources/historia.md)
