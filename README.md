@@ -1,435 +1,57 @@
-# Radar COVID – Documentación
-## Respuesta a Preguntas Frecuentes (FAQ)
- 
-_Proyecto de la [Unidad Tecnológica de Voluntariado](http://utv.com.es)._
- 
-## Objeto
-
-Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sobre su funcionamiento cómo su arquitectura más técnica. Va dirigida a las personas que no encuentan información oficial suficiente. Responde también a preguntas sobre el proyecto Radar STATS.
-
-## Índice
-
-- [__Preguntas frecuentes__](#preguntas-frecuentes)
-  * [__A. Instalación de Radar COVID__](#FAQ-A)
-    * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
-    * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
-    * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
-    * [A.4. Alegaciones sobre privacidad y seguridad de RadarCovid.](#FAQ-A-4)
-  * [__B. Funcionamiento de Radar COVID__](#FAQ-B)
-    * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
-    * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
-    * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
-    * [B.4. Nuevas versiones de Radar COVID](#FAQ-B-4)
-    * [B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?](#FAQ-B-5)
-  * [__C. Errores de Radar COVID__](#FAQ-C)
-    * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
-    * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
-  * [__D. Información sobre Radar STATS__](#FAQ-D)
-    * [D.1. ¿Qué hace Radar STATS?](#FAQ-D-1)
-  * [__E. Información técnica sobre Radar COVID__](#FAQ-E)
-     * [E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?](#FAQ-E-1)
-     * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
-     * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-3)
-     * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-4)
-  * [__F. Internacional__](#FAQ-F)
-    * [F.1. Aplicaciones similares a Radar COVID en otros países](#FAQ-F-1)
-    * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
-    * [F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?](#FAQ-F-3)
-  * [__Z. Implantación en Comunidades Autónomas__](#FAQ-Z)
-    * [Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo](#FAQ-Z-1)
-    * [Z.2. Cómo comunican las Comunidades Autónomas el código de 12 digitos](#FAQ-Z-2)
-- [__Enlaces oficiales__](#enlaces-oficiales)
-- [__Glosario__](#glosario)
-- [__Reglas de estilo__](#reglas-de-estilo)
-- [__Contacto y colaboradores__](#contacto)
-- [__Versión__](#versión)
+# Sobre la "brecha de seguridad" de Radar COVID
 
-## Preguntas frecuentes
+## P - ¿Es verdad que Amazon u otras empresas tiene o ha tenido acceso a esta información? 
+**TL;DR**: No. Al menos, no en ninguna forma práctica.
 
-### <a name="FAQ-A"></a>A. Instalación de Radar COVID
+Esa afirmación está bastante sacada de contexto:
 
-#### <a name="FAQ-A-1"></a>A.1. ¿En qué móviles se puede instalar?
+Los servidores de Radar COVID están efectivamente en dominio de Amazon Web Services, AWS, (Amazon en adelante), a quien se le alquilan estos equipos, como muchos otros proyectos tecnológicos pertenecientes a empresas privadas o al ámbito público.
 
-- En los móviles con Android 6.0 o posterior.
-- En los móviles iPhone requiere un sistema 13.5 o posterior.
- 
-No se puede instalar en:  
- 
-- Móviles con versiones de Android anterior a la 6.0.  
-- Móviles Huawei y Honor de última generación sin Google Play Services.  
-- Cualquier móvil de otros fabricantes que no tengan Google Play.
+Amazon, al ser los dueños de estos equipos, tienen la capacidad de ver la información que hay en ellos. Es como si alguien almacena fotos en tu PC, podrías verlas si quisieses.
 
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 06/10/2020 | [Xataka](https://www.xataka.com/basics/que-moviles-puedes-no-puedes-instalar-app-radar-covid), [App Store](https://apps.apple.com/es/app/radar-covid/id1520443509), [Twitter (@SEDIAgob)](https://twitter.com/SEDIAgob/status/1295277894424551424) |
- 
-#### <a name="FAQ-A-2"></a>A.2. ¿Cónsume mucha batería Radar COVID?
+Sin embargo, tal acción violaría la GDPR por parte de Amazon, y sería un escándalo en si mismo. **No hay ninguna prueba ni indicio de que tal cosa haya ocurrido ni vaya a ocurrir**.
 
-No.
+Por otro lado, Amazon solo podría ver unas etiquetas que son aleatorias (ver "como funciona este fallo"), y unas direcciones de internet que, afinando en el peor de los casos, determinan a una casa entera, no a un individuo. En casos más realistas, Amazon tendría que trabajar con una empresa de servicio de internet para poder cruzar estos datos, lo cual sería una vez más una violación de varias leyes.
 
-[@YoryoBass](https://twitter.com/YoryoBass/status/1312445670922489857):
+Para terminar, ninguna otra empresa es dueña de estos servidores, y las unicas otras entidades que podrían ver este flujo de datos son los proveedores de internet. Que se encontrarían con menos información aun, dado que no pueden leer la "etiqueta" del positivo.
 
-> "En general, el protocolo Bluetooth es muy robusto y el rendimiento no se degrada demasiado a menos que haya cientos de dispositivos en una proximidad cercana."
->
-> …
->
-> La evidencia del acierto de la elección de Bluetooth de baja energía (BLE) para ser usado en aplicaciones de rastreo de contactos es apabullante.
+Por tanto, **ninguna empresa ha visto estos datos, ni podrían hacer nada con ello si lo hicieran**.
 
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 03/10/2020 | [Twitter (@YoryoBass)](https://twitter.com/YoryoBass/status/1312445670922489857) |
+----
+----
+## P - ¿Como funciona este fallo?
 
-#### <a name="FAQ-A-3"></a>A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?
+La aplicación se comunica con sus servidores para comunicar un positivo del usuario, y  para descargar los nuevos positivos, de forma que se puede averiguar si el usuario ha estado en contacto con alguno de ellos.
 
-Parece que no tiene fallos de seguridad o privacidad. Diversos expertos han examinado el código y no consta que haya resquicios de seguridad. Como ejemplo incluimos un informe de la [Organización de Consumidores y Usuarios](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#) transmitido por la agencia [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html).
+Estas comunicaciones se hacen de forma segura, y es imposible leer "que pone" en esas comunicaciones.
 
-Ha suscitado dudas que en Android obliga a tener activada la localización o ubicación. En este [enlace de Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) se indica que Android necesita tener los servicios de localización activos para que funcione la conexión de móviles por Bluetooth pero que Radar COVID no registra esta ubicación. En este [enlace del soporte de Google](https://support.google.com/googleplay/answer/9888358?hl=es) se indica que con Android 11 "no es necesario activar los ajustes de ubicación".
+Sin embargo, *era posible* diferenciar entre una comunicación de positivo del usuario y una comunicación de "actualizar los positivos que ha habido".
 
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 08/10/2020 | [OCU](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#), [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html), [Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) |
+De esta forma, si alguien consigue ver que se ha hecho una comunicación de positivo, entonces se puede saber que ese usuario es positivo.
 
-#### <a name="FAQ-A-4"></a>A.4 Alegaciones sobre privacidad y seguridad de RadarCovid.
- 
-**A.4.1 El Pais avisa 22/10/2020** de "una brecha de seguridad" en Radar Covid: "si hay subida al servidor implica que el usuario es positivo. Quien tenga acceso al tráfico, por tanto, sabe quién lo es" [enlace](https://elpais.com/tecnologia/2020-10-22/la-app-radar-covid-ha-tenido-una-brecha-de-seguridad-desde-su-lanzamiento.html)
+Como se puede apreciar, el único ataque a la privacidad factible es de un individuo a otro, y no desde una empresa, ya que el proceso ocurre cerca del individuo positivo.
 
-Le contesta [en tuit @imartinezortiz](https://twitter.com/imartinezortiz/status/1319201482407923714): 
-> La noticia es alarmista. Amazon Web Services puede conocer la interacción, al igual que el proveedor de internet del usuario del teléfono ya que: 1) la resolución DNS por defecto no está cifrada, 2) las conexiones TLS, por defecto, también pueden saber el servidor de destino. Los datos enviados son anónimos y requerirían colaboración  para asignar un nombre a la IP origen (aunque hay otras maneras). Para eso existen los contratos con los proveedores de la nube, para que no miren la tubería, si no tendríamos los servidores debajo de la mesa. Los datos son anónimos y la comunicación está cifrada. El sustrato sobre el que se construye RadarCovid es el mismo que se utiliza en el resto de aplicaciones europeas.
->
+----
 
-También contesta [en tuit @pvieito](https://twitter.com/pvieito/status/1319224757619916800) 
-> Es totalmente cierto que el titular es alarmista (¿brecha de seguridad?) pero también que el protocolo DP3T se diseñó con el concepto de subidas de diagnóstico falsas precisamente para mitigar esta posibilidad y Radar COVID no las hacía hasta hace poco.
+Alguien con suficientes conocimientos puede "ver" esa comunicación, pero se han de cumplir los siguientes requisitos:
+- El atacante tiene que estar en la misma red que el positivo. Por ejemplo, el wifi de casa, o el de algún restaurante. Por reiterar, alguien **fuera de la red WiFi** (o en una red distinta, como en las oficinas grandes) tampoco vería esta comunicación. O, por ejemplo, si se reportó usando los datos móviles (3g,4g...), también sería "invisible" para un atacante.
 
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 22/10/2020 | Enlace de El Pais y tuits citados |
+- El atacante tiene que estar "escuchando" en la red **durante el momento exacto** que se comunica el positivo. Antes o después no se puede detectar nada.
 
-### <a name="FAQ-B"></a>B. Funcionamiento de Radar COVID
+- La comunicación que se ve en la red **identifica a un dispositivo** en ella, **no a una persona**. El atacante tiene que poder identificar al usuario del dispositivo para obtener su identidad, cosa más o menos fácil dependiendo del numero de dispositivos y gente en la red.
 
-#### <a name="FAQ-B-1"></a>B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?
+----
+----
+## P - ¿Puedo averiguar si alguien sabe si yo he dado positvo mediante este fallo?
+Lamentablemente, a posteriori es imposible saberlo.
 
- Sí, pero los contactos estrechos anteriores a la instalación no recibirán ningún aviso.
+Sin embargo, el fallo abre una ventana muy pequeña de tiempo y con unas condiciones muy concretas para que alguien haya podido aprovecharlo de forma realista (ver pregunta anterior).
 
-[@pvieito](https://twitter.com/pvieito/status/1311026303643062272):
+Dado que además este fallo no era público, combinado con lo poco que tiene que ganar un posible atacante, hace que en la realidad es extremadamente poco probable que nadie lo haya sufrido.
 
-> Recordemos que Radar COVID tiene que estar instalada y activada días antes del diagnóstico para que al compartirlo en la app, haya TEKs (Clave de exposición temporal o identificador generado diariamente en el dispositivo) de días previos que subir al servidor. Si la instalación se hace a posteriori no sirve para avisar a los contactos de riesgo.
+**Si se ha mantenido en redes privadas o datos móviles al dar el positivo en la app, es muy probable que nadie haya podido emplear este ataque contra usted**
 
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 03/10/2020 | [Twitter (@pvieito)](https://twitter.com/pvieito/status/1311026303643062272) |
-
-#### <a name="FAQ-B-2"></a>B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?
-
- La notificación a mi móvil no se produce en cuanto mi contacto ha comunicado su positivo, sino cuando el servidor envía las actualizaciones a los móviles, y eso sucede dos veces al día:
-
- - Entre las 6h y las 18h
- - Entre las 18h y las 6h
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 16/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1310517441752182784) |
-
-#### <a name="FAQ-B-3"></a>B.3. Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?
-
-Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que proporciona códigos a los positivos y esa persona lo ha comunicado recibirá notificaciones de contacto alto.
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Borrador | | |
-
-#### <a name="FAQ-B-4"></a>B.4. Nuevas versiones de Radar COVID
-
- En las direcciones de descarga de Google y Apple, en la parte inferior, aparece el número de versión que estamos descargando.
-
- A día 09/10/2020 en Android es 1.0.7 y en iOS 1.0.8:
-
-[@AppRadarCovid](https://twitter.com/AppRadarCovid/status/1314476417946660864):
-
->  - Habilita la introducción de fecha de inicio de síntomas o de diagnóstico tras hacerte el PCR
->  - Actualiza la versión de #DP3T
->  - Introduce implementaciones en materia de accesibilidad
->  - Resuelve algunos problemas de funcionamiento
->  - La app ahora enviará de forma automática positivos ficticios al servidor
->  - De esa manera, será imposible distinguir qué positivos son reales en caso de ataque
->  - Al comunicar tu positivo nunca nadie podrá saber que fuiste tú
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 09/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1314476417946660864) |
-
-#### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
-
-Al comunicar un positivo, RadarCOVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado.  [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317148304711376897).
-
-La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que RadarCOVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
-
-Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en RadarCOVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
-
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 17/10/2020 | https://twitter.com/AppRadarCovid/status/1317148304711376897 |
-
-### <a name="FAQ-C"></a>C. Errores de Radar COVID
-
-#### <a name="FAQ-C-1"></a>C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”
-
- Solución: Ir a Ajustes > Mantenimiento dispositivo > Batería
-
- - Modo de Ahorro de Energía. DESACTIVADO
- - Apps sin supervisión / Control de energía de aplicaciones: señalar Radar COVID (estas aplicaciones pueden usar tanta batería como requieran sin que el control de energía lo impida) ([ver captura](/resources/201.jpg)).
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 05/10/2020 | [Business Insider](https://www.businessinsider.es/configurar-radarcovid-app-rastreo-contactos-no-tan-facil-504213) |
-
-#### <a name="FAQ-C-2"></a>C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”
-
- Una o varias de estas soluciones han funcionado:
-
- a) Desactivar y volver a activar las notificaciones de exposición
- b) Apagar y encender el teléfono.
- c) Actualizar Google Play 
- d) Limpiar la caché de las apps (en Android: Ajustes > Mantenimiento dispositivo > Almacenamiento > Aplicaciones > Radar COVID > Almacenamiento > Borrar Caché)
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 06/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1311959104731189250) |
-
-### <a name="FAQ-C"></a>D. Información sobre Radar STATS
-
-#### <a name="FAQ-D-1"></a>D.1. ¿Qué hace Radar STATS?
-
-Radar STATS es un proyecto desarrollada por @pvieito que publica sus resultados en Twitter en la cuenta [@RadarCOVIDSTATS](https://twitter.com/RadarCOVIDSTATS) cada hora.
-
-Estima cuántos pacientes han comunicado su diagnóstico positivo ("Shared Diagnoses"), cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo ("Uploaded TEKs") y cuál es el porcentaje de los infectados que han comunicado su positivo ("Usage Ratio"). Lo calcula para el último dia y los últimos 7 días.
-
-Radar STATS es un proyecto de código abierto. Contiene un histórico de los datos y documentación sobre el significado de las estadísticas.
-
-Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS) para visualizar las estadísticas de Radar STATS.
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 08/10/2020 | [Radar STATS](https://github.com/Radar-STATS/Radar-STATS#documentation), [Radar STATS – iOS](https://github.com/Radar-STATS/Radar-STATS-iOS) |
-
-### <a name="FAQ-E"></a>E. Información técnica sobre Radar COVID
-
-#### <a name="FAQ-E-1"></a>E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?
-
- En Android con 8.0.0:
-
- Ajustes > Google > Notificaciones de exposición al COVID-19 > [Comprobaciones de exposición](resources/401a.jpg) ([resultado](resources/401b.jpg) o [detalle de la exposición](resources/401d.jpg)).
-
- En la parte superior derecha de la pantalla, pulsando [Exportar comprobaciones de exposición](resources/401c.jpg) se pueden enviar por correo electrónico a una dirección. Adjuntan un fichero similar a `all-exposure-checks20.json`. Este fichero se puede abrir en cualquier editor de texto.
- 
-Una "Comprobación de exposición" es similar a:
-
-```
-{
-    "timestamp": "5 de octubre de 2020 19:36",
-    "keyCount": 39,
-    "matchesCount": 0,
-    "appName": "Radar COVID",
-    "hash":"Q+gOQWeHzTSWtsks2JBzV2o8BUfY0nRBXBECi105HfM="
-}
-```
-
-#### <a name="FAQ-E-2"></a>E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?
-
- En iPhone con iOS 13.7:
-
-Ajustes > Notificaciones de exposición > [Activo](resources/402a.png) (pulsar etiqueta) > [Comprobaciones de exposición](resources/402b.png) > Introducir el código del iPhone ([resultado](resources/402c.jpg) o [detalle de la exposición](resources/402d.jpg)).
-
-En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Exportar comprobaciones de exposición** se pueden enviar por correo electrónico a una dirección. Adjuntan un fichero similar a `all-exposure-checks20.json`. Este fichero se puede abrir en cualquier editor de texto.. Una "Comprobación de exposición" es similar a:
-
-```
-"Files" : [
- {
-   "Hash" : "F2153E75EBFCDFBED3DA363EB0BECDBD810FEB05E8B691FA1F1FE6858B224208",
-   "MatchCount" : 0,
-   "KeyCount" : 235,
-   "AppBundleIdentifier" : "es.gob.radarcovid",
-   "Timestamp" : "2020-10-06 00:40:22 +0200"
- }
-]
-```
-
-#### <a name="FAQ-E-3"></a>E.3. ¿Qué es una comprobación de exposición?
-
- Es la comprobación de si alguno de los identificadores aleatorios que mi móvil ha captado de otros móviles cercanos corresponde a alguien que ha comunicado su contagio después de haber estado cerca de mi móvil. Las preguntas E.1 y E.2 muestran cómo puedo ver el listado de **comprobaciones de exposición**. La pregunta E.4 (apartado 2) indica cómo se calculan estas comprobaciones y muestra un ejemplo de comprobaciones tras una descarga de diagnósticos positivos del servidor de diagnósticos positivos. 
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Borrador | 12/10/2020 |  |
-
-#### <a name="FAQ-E-4"></a>E.4. Funcionamiento técnico de Radar COVID
-
-1. Cada móvil con Radar Covid instalado y Bluetooth activado genera, cada 10 minutos aproximadamente, identificadores aleatorios que se intercambian con otros móviles que están activados y a menos de 2 metros. Cada móvil almacena durante 14 días sus propios identificadores aleatorios y los de los móviles que han estado cerca.
-
-    Hasta donde sabemos, no podemos ver si un móvil cercano nos ha enviado sus identificadores ni ver qué identificadores, propios o de terceros, tenemos almacenados. Por tanto, no podemos saber si nuestros móviles tienen bien instalada Radar Covid y tampoco podemos saber si nuestro vecino, desde una ventana cercana a la nuestra o desde el piso de arriba está intercambiando identificadores con nosotros.
-
- 2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas E.1 y E.2). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar Covid indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
-
-    Por tanto, si me comunican "Riesgo alto" ninguna autoridad ni ningún servidor me está enviando un mensaje. Es mi propio móvil quien genera las notificaciones, con la información descargada del servidor y los identificadores aleatorios de terceros que mi móvil tenia almacenados.
-
-    Por este motivo, las autoridades no pueden saber cuantas notificaciones de "Riesgo alto" han sido hechas.
-
- 3. Cuando un usuario de la APP Radar Covid comunica su positivo, los identificadores aleatorios propios que tiene almacenados se cargan en el servidor de diagnósticos positivos que serán descargados por otros usuarios tal como se indica en el apartado 2.
-
-    Cabe indicar que según se indica en la pregunta I.7 de este [documento](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf) "los identificadores aleatorios generados por ese dispositivo durante los 5 días previos a ese momento se etiquetan como positivos y se lanzan a la nube con consentimiento del usuario". Es decir, no se lanzan a la nube mis identificadores de los 14 días sino algunos menos.
-
- **NOTA**
-
-- A los identificadores aleatorios se les suele llamar ID aleatorios, ID efímeros o Rolling Proximity Identifier (RPI, Identificador de proximidad móvil).
-- Al descargar (como se indica en el apartado 2) realmente no se descargan los identificadores aleatorios sino un identificador diario (TEK, Clave de exposición temporal o Temporary Exposure Key en inglés) a partir de los cuales se calculan los identificadores aleatorios.
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Borrador | 11/10/2020 | [Ministerio de Salud](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf), [Google Support](https://support.google.com/googleplay/answer/9888358?hl=es), [Radar COVID](https://radarcovid.gob.es/politica-de-privacidad), [Apple](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf) |
-
-### <a name="FAQ-F"></a>F. Internacional
-
-#### <a name="FAQ-F-1"></a>F.1. Aplicaciones similares a Radar COVID en otros países
-
-| País | Aplicación | Enlaces Relacionados |
-| --- | --- | --- |
-| Alemania | [Corona-Warn-App](https://www.coronawarn.app/en/) | [Documentación](https://github.com/corona-warn-app/cwa-documentation/blob/master/README.md), [Arquitectura](https://github.com/corona-warn-app/cwa-documentation/blob/master/solution_architecture.md) |
-| Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
-| Irlanda | [CovidTracker](https://covidtracker.gov.ie/how-the-app-works/) | |
-| Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | |
-
-La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 20/10/2020 | |
-| Aprobado | 20/10/2020 | https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904 |
-| Aprobado | 20/10/2020 | https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en |
-
-#### <a name="FAQ-F-2"></a>F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth
-
-Documentos técnicos que describen el intercambio de identificadores efímeros entre teléfonos Android e iPhone, intercambio basado en el protocolo DP-3T (Rastreo de proximidad descentralizado para preservar la privacidad):
-
-##### Google
- - [Documento de referencia del diseño de la solución](https://github.com/google/exposure-notifications-android)
- - [Especificación de la emisión de Bluetooth](https://www.blog.google/documents/70/Exposure_Notification_-_Bluetooth_Specification_v1.2.2.pdf)
- - [Especificación de la generación de identificadores](https://blog.google/documents/69/Exposure_Notification_-_Cryptography_Specification_v1.2.1.pdf)
- - [API (librerías) para programar el intercambio](https://developers.google.com/android/exposure-notifications/exposure-notifications-api)
- - [FAQ sobre las notificaciones de exposición](https://www.blog.google/documents/63/Exposure_Notification_-_FAQ_v1.0.pdf)
- - [Formato de los ficheros de exposición](https://developers.google.com/android/exposure-notifications/exposure-key-file-format)
-
-##### Apple
-
- - [Documento de referencia del diseño de la solución](https://covid19.apple.com/contacttracing)
- - [Especificación de la emisión de Bluetooth](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-BluetoothSpecificationv1.2.pdf)
- - [Especificación de la generación de identificadores](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf)
- - [API (librerías) para programar el intercambio](https://developer.apple.com/documentation/exposurenotification)
- - [FAQ sobre las notificaciones de exposición](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-FAQv1.2.pdf)
-
-##### Protocolo DP-3T
-
- - [Descripción del protocolo](https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Data%20Protection%20and%20Security.pdf)
- - [Documentación](https://github.com/DP-3T/documents/)
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 09/10/2020 | |
-
-#### <a name="FAQ-F-3"></a>F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?
-
-Según indica el servicio de soporte de Twitter @AppRadarCovid en este [tuit](https://twitter.com/AppRadarCovid/status/1317050752439812097):
-
-_RadarCOVID se incorpora a las pruebas del marco de interoperabilidad de la Comision Europea_
-
-_Las pruebas se extenderán unas tres semanas (a partir del 16/10)_
-
-_Una vez superadas, las apps de los Estados miembros adheridos serán compatibles_
-
-@pvieito intuye, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
-
-La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
-
-Las APP Corona-Warn-App (Alemania) e Immuni (Italia) han sido actualizadas para funcionar con la interoperabilidad europea según se indica en 20/10/2020 [aquí.](https://twitter.com/pvieito/status/1318593010200924160)
-
-Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad, párrafo 7)
-
-_Aunque puedes autorizar notificaciones de exposición de más de una autoridad de salud pública, solo puedes tener activas las de una región simultáneamente. Recibirás notificaciones de posibles exposiciones conforme a los parámetros establecidos por la autoridad de salud pública de tu región activa. Para seleccionar o cambiar tu región activa, ve a Ajustes > Notificaciones de exposición_
-
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Borrador | 17/10/2020 | Twitter indicados, Información en Radar COVID-iPhone |
-| Aprobado | 20/10/2020 | https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904 |
-| Aprobado | 20/10/2020 | https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en |
-
-
-### <a name="FAQ-Z"></a>Z. Implantación en Comunidades Autónomas
-
-#### <a name="FAQ-Z-1"></a>Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
-
-La siguiente tabla contiene las comunidades que entregan el código necesario (al menos en el 50% de los casos) para comunicar que diagnósticos positivos en Radar COVID:
-
-| Comunidad Autónoma | Activo | Fuente | Fecha de actualización |
-| --- | --- | --- | --- |
-| Andalucía | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
-| Aragón | Sí | Diversos medios indican informalmente que a partir del 15/10/2020 o del 16 en casi todo Aragón se darán los códigos. | 15/10/2020 |
-| Asturias |    |   | 03/10/2020 |
-| Baleares | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
-| Canarias | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
-| Cantabria | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
-| Castilla la Mancha |    |   | 03/10/2020 |
-| Castilla y León |    |   | 03/10/2020 |
-| Cataluña | No | [Hipertextual](https://hipertextual.com/2020/10/app-radar-covid-madrid-barcelona-no-operativa-pese-numero-contagios) | 05/10/2020 |
-| Ceuta |    |   | 03/10/2020 |
-| Comunidad Valenciana |    |   | 03/10/2020 |
-| Extremadura |    |   | 03/10/2020 |
-| Galicia | Sí | [La Voz de Galicia](https://www.lavozdegalicia.es/noticia/sociedad/2020/09/17/tienes-coronavirus-teclea-tu-movil-codigo-da-sergas-avise-tus-contactos-estrechos/00031600351167433512383.htm) | 18/09/2020 |
-| Madrid | Sí | [El Confidencial](https://www.elconfidencial.com/tecnologia/2020-10-08/madrid-radar-covid-aplicacion-rastreo-contactos_2781579/), [El Diario](https://www.eldiario.es/tecnologia/madrid-activa-hoy-app-rastreo-contactos-radar-covid_1_6279298.html) | 09/10/2020 |
-| Melilla |    |   | 03/10/2020 |
-| Murcia | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
-| Navarra |    |   | 03/10/2020 |
-| Pais Vasco | Sí | [El Correo](https://www.elcorreo.com/sociedad/salud/directo-rueda-prensa-20200928153045-nt.html) | 03/10/2020 |
-| La Rioja |    |   | 03/10/2020 |
-
-#### <a name="FAQ-Z-2"></a>Z.2. Cómo comunican las Comunidades Autónomas el código de 12 digitos
-
-No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
-
-- **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
-- **Pais Vasco**: En el SMS en el Osakidetza comunica el resultado positivo.
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 17/10/2020 | --- |
-
-## Enlaces oficiales
-
-- [Radar COVID (radarcovid.gob.es)](https://radarcovid.gob.es/preguntas-frecuentes)
-- [Radar COVID - GitHub - Código abierto](https://github.com/radarcovid)
-- [Preguntas y respuestas sobre Radar COVID (www.mscbs.gob.es)](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
-- [Soporte en Twitter @AppRadarCovid](https://twitter.com/AppRadarCovid/with_replies)
-
-## Glosario
-
-- **CCAA**: Comunidades autónomas españolas
-- **DP3T**: Es un protocolo de código abierto desarrollado en respuesta a la pandemia de coronavirus 2019-2020 para facilitar el [rastreo digital de contactos](https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preservar_la_privacidad) de los participantes infectados.
-- **TAN (Transaction Authorization Number)**: códigos de 12 cifras que da el sistema sanitario de las CCAA y sirve para comunicar un diagnóstico positivo.
-- **TEK (Temporary Exposure Key)**: Clave de exposición temporal. Un identificador aleatorio generado diariamente en el dispositivo que utilizan las aplicaciones de exposición como Radar COVID para detectar exposiciones y comunicar diagnósticos positivos.
-
-## Reglas de estilo
-
-- Está página no está sometida a intereses y conveniencias de partidos políticos ni de instituciones de gobierno u otras.
-- Está página no cuenta con financiación ni otras limitaciones procedentes de empresas u otros intereses económicos.
-- La página quiere estar redactada en un lenguaje claro y pedagógico, sin términos en inglés ni abreviaturas no explicadas.
-- Las respuestas deben de tener una fuente de la que se han obtenido (salvo excepciones) y una fecha en la que se han redactado.
-
-## <a name="contacto"></a> Contacto y colaboradores
-
-- Email: <RadarCOVIDvoluntarios@gmail.com>
-- [Contribuyen](https://github.com/utvoluntariado/radar-covid-docs/)
-
-## Versión
-
-- Versión: 0.93 (version beta, de prueba; en 23/10/2020 será definitiva)
-- Fecha actualización: 22/10/2020
-- [Histórico de cambios](resources/historia.md)
+----
+----
+## P - ¿El problema sigue activo?
+No, la aplicación se ha actualizado para fingir comunicaciones de "positivo" al servidor, de forma que ahora es immposible adivinar si es verdad o no para un atacante.
