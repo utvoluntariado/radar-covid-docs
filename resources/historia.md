@@ -1,5 +1,9 @@
 # Historico de cambios
 
+23/10/2020 (versión 0.931)
+
+- MODIFICAR. Incluir en A.4 la nota de @UTVoluntariado
+
 22/10/2020 (versión 0.93)
 
 - NUEVA Incluir A.4 Alegaciones sobre privacidad y seguridad de RadarCovid
