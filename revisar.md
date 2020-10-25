@@ -42,11 +42,11 @@ Hemos tomado una Galaxy S7 Edge con Android 8.0 Durante 24 horas no ha hecho ni 
 
 NUEV0
 
-La interoperabilidad de las aplicaciones de rastreo europeas que se anuncia que estará disponible en la semana del 26/10/2020 [tuit de la EU](https://twitter.com/EU_Commission/status/1318152800887558144) inicialmente perderá el dato del uso de Radar COVID en España ("Usage Ratio" y otros indicadores que calcula @pvieito para dar cada hora la estadística en [RadarCovidStats](https://twitter.com/radarcovidstats).
+La interoperabilidad de las aplicaciones de rastreo europeas que se anuncia que estará disponible en la semana del 26/10/2020 [tuit de la EU](https://twitter.com/EU_Commission/status/1318152800887558144) inicialmente perderá el dato del uso de Radar COVID en España ("Usage Ratio" y otros indicadores que calcula [@pvieito](https://twitter.com/pvieito) para dar cada hora la estadística en [RadarCovidStats](https://twitter.com/radarcovidstats)).
 
 En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
 
-@pvieito ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los [TEK de cada pais](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209) para poder monitorizar el rendimiento de cada uno.
+[@pvieito](https://twitter.com/pvieito) ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los [TEK de cada pais](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209) para poder monitorizar el rendimiento de cada uno.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
