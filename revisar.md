@@ -46,7 +46,7 @@ La interoperabilidad de las aplicaciones de rastreo europeas que se anuncia que 
 
 En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
 
-@pvieito ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los TEK de cada pais https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209 para poder monitorizar el rendimiento de cada uno.
+@pvieito ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los [TEK de cada pais](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209) para poder monitorizar el rendimiento de cada uno.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -54,6 +54,6 @@ En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el
 
 
 
-Actualizado: 22/10/2020 version 13
+Actualizado: 25/10/2020 version 14
 
 
