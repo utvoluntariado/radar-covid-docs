@@ -21,7 +21,7 @@ La comunicación, que diariamente se hace dos veces entre el servidor y nuestro 
 
 MODIFICAR. Añadir a Protocolo DP-3T
 
-[Buenas prácticas para la seguridad operacional en el rastreo de proximidad. Equipo DP-3T, Carmela Troncoso] (https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Best%20Practices%20for%20Operation%20Security%20in%20Proximity%20Tracing.pdf) 
+[Buenas prácticas para la seguridad operacional en el rastreo de proximidad. Equipo DP-3T, Carmela Troncoso](https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Best%20Practices%20for%20Operation%20Security%20in%20Proximity%20Tracing.pdf) 
 
 [Visión general de protección de datos y seguridad, Carmela Troncoso y otros](https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Data%20Protection%20and%20Security.pdf)
 
