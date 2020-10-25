@@ -32,10 +32,10 @@ MODIFICAR. Añadir
 
 Hemos hecho el siguiente experimento. De su naturaleza no pueden obtenerse conclusiones pero puede dar indicios.
 
-Hemos tomado una Galaxy S7 Edge con Android 8.0 Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión Internet (whatsapp, twitter y mail) Ha estado en la calle 90 minutos. Tiene Radar Covid instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
+Hemos tomado una Galaxy S7 Edge con Android 8.0 Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión con servicios Internet (whatsapp, twitter y mail) Ha estado en la calle 90 minutos. Tiene Radar Covid instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
 
-a) La batería ha pasado de una carga del 100% a una carga del 80%
-b) La batería ha pasado de una carga del 100% a una carga del 80% (coincide con a)
+a) La batería ha pasado de una carga del 100% a una carga del 80%.
+b) La batería ha pasado de una carga del 100% a una carga del 80% (coincide con a).
 
 
 #### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
