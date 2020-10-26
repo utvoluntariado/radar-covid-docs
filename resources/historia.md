@@ -1,5 +1,12 @@
 # Historico de cambios
 
+26/10/2020 (versión 1.1)
+
+- A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
+- F.2 Añadir documentos nuevos a  DP-3T
+- A.2. ¿Cónsume mucha batería Radar COVID? Añadir resultados de un experimento simple
+- D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
+
 23/10/2020 (versión 1.0)
 
 - Entra en producción la version beta anterior adoptando el 1.0 Continuaran la evolución
