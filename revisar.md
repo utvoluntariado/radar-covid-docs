@@ -1,59 +1,36 @@
 # FAQ a revisar antes de ser publicadas
 
-#### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
+Carme Artigas Brugal
+Secretaria de Estado de Digitalización e  Inteligencia Artificial.
+Vicepresidencia de Asuntos Económicos y Transformación Digital.
+(no encuentro email de ella ni de SEDIA)
 
-NUEVO
+Queriamos pedir que Radar COVID incluya algunos indicadores públicos que se indican a continuación.
 
-Las principales operadoras de telefonía,  @movistar_es @vodafone_es @orange_es @o2es @tuenties @Amena se comprometen a no repercutir el consumo de datos de #RadarCOVID a sus usuarios
+Estamos firmemente convencidos de la utilidad que Radar COVID puede prestar en el control de la pandemia, pero pensamos que además de los mensajes de estímulo que envian desde SEDIA y otras muchas instituciones es preciso saber si está funcionando de acuerdo a lo previsto para transmitir a la opinión pública las ventajas de la APP y la conveniencia de tenerla instalada.
 
-[Nota de prensa de La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/asuntos-economicos/Paginas/2020/221020-radarcovid.aspx)
+Sugerimos los siguientes indicadores:
 
-La noticia no indica nada de Pepephone, MasMóvil, Yoigo, Simyo, Lowi y algunas otras
+a) Número de contagiados que comunican su positivo ("shared diagnoses")
 
-La comunicación, que diariamente se hace dos veces entre el servidor y nuestro móvil, supone al día menos de 100 Kb. de datos (1000 Kb = 1 Mb)
+b) APP que están activas (no cuántas se han descargado). El número de APP que establecen conexión para descargar sus "comprobaciones de exposición" seria el indicador. 
 
+Puede ser útil esta entrevista a Salathe https://www.elconfidencial.com/tecnologia/2020-09-06/app-radar-covid-swisscovid-marcel-salathe_2734583/ "Y digo probablemente porque no medimos descargas, es una cifra muy basta, medimos la actividad real de la gente con la aplicación de diferentes formas, a través de las peticiones que hace la 'app' a los servidores."
 
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 25/10/2020 | [Tuit oficial](https://twitter.com/desdelamoncloa/status/1319716470150946817)|
+c) Porcentaje de sanitarios que en cada CCAA dan el codigo de 12 dígitos para comunicar el diagnóstico cuando comunican un positivo al "paciente". Basta con una estimación si no es posible dar datos precisos (en la última semana).
 
-#### <a name="FAQ-F-2"></a>F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth.
+d) Número de consultas al sistema sanitario de cada CCAA con la demanda "he recibido una notificación es contacto de riesgo" a través de mi Radar Covid. Preferiblemente, por Comunidad Autónoma.
 
-MODIFICAR. Añadir a Protocolo DP-3T
+e) Las alertas que se producen cuando una persona comunica su positivo. Habría que añadir estadísticas anónimas a la APP, pero si son voluntarias es muy razonable: la APP irlandesa las publica y es una métrica muy interesante (https://covidtracker.gov.ie/privacy-and-data/)
 
-[Buenas prácticas para la seguridad operacional en el rastreo de proximidad. Equipo DP-3T, Carmela Troncoso](https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Best%20Practices%20for%20Operation%20Security%20in%20Proximity%20Tracing.pdf) 
-
-[Visión general de protección de datos y seguridad, Carmela Troncoso y otros](https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Data%20Protection%20and%20Security.pdf)
-
-
-#### <a name="FAQ-A-2"></a>A.2. ¿Cónsume mucha batería Radar COVID?.
-
-MODIFICAR. Añadir 
-
-Hemos hecho el siguiente experimento. De su naturaleza no pueden obtenerse conclusiones pero puede dar indicios.
-
-Hemos tomado una Galaxy S7 Edge con Android 8.0 Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión con servicios Internet (whatsapp, twitter y mail) Ha estado en la calle 90 minutos. Tiene Radar Covid instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
-
-- a) La batería ha pasado de una carga del 100% a una carga del 80%.
-- b) La batería ha pasado de una carga del 100% a una carga del 80% (coincide con a).
+f) Que el proyecto de interoperabilidad europea EFGS añada mecanismos para descargar el número de TEK que han comunicado los positivos de cada estado ya que parece que con la entrada en funcionamiento, en los próximos días, de la interoperabilidad va a desaparecer el atributo del "pais" en el servidor de diagnósticos.
 
 
-#### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
+Le escribo en nombre de la Unidad Tecnológica de Voluntariado (https://utv.com.es/), un grupo de voluntarios sin ánimo de lucro que crean y mantienen soluciones tecnológicas útiles y libres y desean contribuir desde su conocimiento en el área tecnológica a derrotar al virus y acabar con la emergencia sanitaria. Nuestras aportaciones aparecen en https://noticias.utv.com.es/. La Unidad Tecnológica de Voluntariado ha informado de las características, funcionamiento y uso de Radar COVID y lo va a seguir haciendo y animando a los ciudadanos a que la instalen. 
 
-NUEV0
-
-La interoperabilidad de las aplicaciones de rastreo europeas que se anuncia que estará disponible en la semana del 26/10/2020 [tuit de la EU](https://twitter.com/EU_Commission/status/1318152800887558144) inicialmente perderá el dato del uso de Radar COVID en España ("Usage Ratio" y otros indicadores que calcula [@pvieito](https://twitter.com/pvieito) para dar cada hora la estadística en [RadarCovidStats](https://twitter.com/radarcovidstats)).
-
-En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
-
-[@pvieito](https://twitter.com/pvieito) ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los [TEK de cada pais](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209) para poder monitorizar el rendimiento de cada uno.
-
-| Estado | Actualización | Fuentes |
-| --- | --- | --- |
-| Aprobado | 25/10/2020 | [Desarrollo de EFGS](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209)|
+Firmante...
 
 
-
-Actualizado: 25/10/2020 version 14
+Actualizado: 26/10/2020 version 15
 
 
