@@ -15,6 +15,7 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
     * [A.4. Alegaciones sobre privacidad y seguridad de RadarCovid.](#FAQ-A-4)
+    * [A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.](#FAQ-A-5)
   * [__B. Funcionamiento de Radar COVID__](#FAQ-B)
     * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
     * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
@@ -106,6 +107,22 @@ La **Unidad Tecnológica de Voluntariado, @UTVoluntariado** [en este tuit](https
 | --- | --- | --- |
 | Aprobado | 23/10/2020 | Enlace de El Pais y tuits citados |
 
+#### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
+
+NUEVO
+
+Las principales operadoras de telefonía,  @movistar_es @vodafone_es @orange_es @o2es @tuenties @Amena se comprometen a no repercutir el consumo de datos de #RadarCOVID a sus usuarios
+
+[Nota de prensa de La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/asuntos-economicos/Paginas/2020/221020-radarcovid.aspx)
+
+La noticia no indica nada de Pepephone, MasMóvil, Yoigo, Simyo, Lowi y algunas otras
+
+La comunicación, que diariamente se hace dos veces entre el servidor y nuestro móvil, supone al día menos de 100 Kb. de datos (1024 Kb = 1 Mb)
+
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 25/10/2020 | [Tuit oficial](https://twitter.com/desdelamoncloa/status/1319716470150946817)|
 ### <a name="FAQ-B"></a>B. Funcionamiento de Radar COVID
 
 #### <a name="FAQ-B-1"></a>B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?
