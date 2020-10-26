@@ -14,14 +14,14 @@ Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sob
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
-    * [A.4. Alegaciones sobre privacidad y seguridad de RadarCovid.](#FAQ-A-4)
-    * [A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.](#FAQ-A-5)
+    * [A.4. Alegaciones sobre privacidad y seguridad de Radar COVID.](#FAQ-A-4)
+    * [A.5 Rebaja por consumo de datos en Radar COVID en algunas operadoras.](#FAQ-A-5)
   * [__B. Funcionamiento de Radar COVID__](#FAQ-B)
     * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
     * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
     * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
     * [B.4. Nuevas versiones de Radar COVID](#FAQ-B-4)
-    * [B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?](#FAQ-B-5)
+    * [B.5. ¿Qué ocurre a Radar COVID después de que se comunica un diagnóstico positivo?](#FAQ-B-5)
   * [__C. Errores de Radar COVID__](#FAQ-C)
     * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
     * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
@@ -79,7 +79,7 @@ No.
 
 Hemos hecho el siguiente experimento. De su naturaleza no pueden obtenerse conclusiones pero puede dar indicios.
 
-Hemos tomado una Galaxy S7 Edge con Android 8.0. Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión con servicios Internet (whatsapp, twitter y mail) Ha estado en la calle 90 minutos. Tiene Radar Covid instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
+Hemos tomado una Galaxy S7 Edge con Android 8.0. Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión con servicios Internet (whatsapp, twitter y mail) Ha estado en la calle 90 minutos. Tiene Radar COVID instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
 
 - a) La batería ha pasado de una carga del 100% a una carga del 80%.
 - b) La batería ha pasado de una carga del 100% a una carga del 80% (coincide con a).
@@ -99,9 +99,9 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 | --- | --- | --- |
 | Aprobado | 08/10/2020 | [OCU](https://www.ocu.org/tecnologia/telefono/noticias/radar-covid#), [Europa Press](https://www.europapress.es/asturias/noticia-ocu-confirma-aplicacion-radar-covid-no-registra-datos-personales-segura-20201007124451.html), [Xataka](https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo-android-hace-iphone) |
 
-#### <a name="FAQ-A-4"></a>A.4 Alegaciones sobre privacidad y seguridad de RadarCovid.
+#### <a name="FAQ-A-4"></a>A.4 Alegaciones sobre privacidad y seguridad de Radar COVID.
  
-**A.4.1 El Pais avisa 22/10/2020** de "una brecha de seguridad" en Radar Covid: "si hay subida al servidor implica que el usuario es positivo. Quien tenga acceso al tráfico, por tanto, sabe quién lo es" [enlace](https://elpais.com/tecnologia/2020-10-22/la-app-radar-covid-ha-tenido-una-brecha-de-seguridad-desde-su-lanzamiento.html)
+**A.4.1 El Pais avisa 22/10/2020** de "una brecha de seguridad" en Radar COVID: "si hay subida al servidor implica que el usuario es positivo. Quien tenga acceso al tráfico, por tanto, sabe quién lo es" [enlace](https://elpais.com/tecnologia/2020-10-22/la-app-radar-covid-ha-tenido-una-brecha-de-seguridad-desde-su-lanzamiento.html)
 
 Le contesta [en tuit @imartinezortiz](https://twitter.com/imartinezortiz/status/1319201482407923714): 
 > La noticia es alarmista. Amazon Web Services puede conocer la interacción, al igual que el proveedor de internet del usuario del teléfono ya que: 1) la resolución DNS por defecto no está cifrada, 2) las conexiones TLS, por defecto, también pueden saber el servidor de destino. Los datos enviados son anónimos y requerirían colaboración  para asignar un nombre a la IP origen (aunque hay otras maneras). Para eso existen los contratos con los proveedores de la nube, para que no miren la tubería, si no tendríamos los servidores debajo de la mesa. Los datos son anónimos y la comunicación está cifrada. El sustrato sobre el que se construye RadarCovid es el mismo que se utiliza en el resto de aplicaciones europeas.
@@ -118,7 +118,7 @@ La **Unidad Tecnológica de Voluntariado, @UTVoluntariado** [en este tuit](https
 
 #### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
 
-Las principales operadoras de telefonía,  @movistar_es @vodafone_es @orange_es @o2es @tuenties @Amena se comprometen a no repercutir el consumo de datos de #RadarCOVID a sus usuarios
+Las principales operadoras de telefonía,  @movistar_es @vodafone_es @orange_es @o2es @tuenties @Amena se comprometen a no repercutir el consumo de datos de Radar COVID a sus usuarios
 
 [Nota de prensa de La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/asuntos-economicos/Paginas/2020/221020-radarcovid.aspx)
 
@@ -186,9 +186,9 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
 #### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
 
-Al comunicar un positivo, RadarCOVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado.  [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317148304711376897).
+Al comunicar un positivo, Radar COVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado.  [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317148304711376897).
 
-La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que RadarCOVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
+La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que Radar COVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
 
 Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en RadarCOVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
 
@@ -307,17 +307,17 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
 #### <a name="FAQ-E-4"></a>E.4. Funcionamiento técnico de Radar COVID
 
-1. Cada móvil con Radar Covid instalado y Bluetooth activado genera, cada 10 minutos aproximadamente, identificadores aleatorios que se intercambian con otros móviles que están activados y a menos de 2 metros. Cada móvil almacena durante 14 días sus propios identificadores aleatorios y los de los móviles que han estado cerca.
+1. Cada móvil con Radar COVID instalado y Bluetooth activado genera, cada 10 minutos aproximadamente, identificadores aleatorios que se intercambian con otros móviles que están activados y a menos de 2 metros. Cada móvil almacena durante 14 días sus propios identificadores aleatorios y los de los móviles que han estado cerca.
 
     Hasta donde sabemos, no podemos ver si un móvil cercano nos ha enviado sus identificadores ni ver qué identificadores, propios o de terceros, tenemos almacenados. Por tanto, no podemos saber si nuestros móviles tienen bien instalada Radar Covid y tampoco podemos saber si nuestro vecino, desde una ventana cercana a la nuestra o desde el piso de arriba está intercambiando identificadores con nosotros.
 
- 2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas E.1 y E.2). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar Covid indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
+ 2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas E.1 y E.2). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar COVID indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
 
     Por tanto, si me comunican "Riesgo alto" ninguna autoridad ni ningún servidor me está enviando un mensaje. Es mi propio móvil quien genera las notificaciones, con la información descargada del servidor y los identificadores aleatorios de terceros que mi móvil tenia almacenados.
 
     Por este motivo, las autoridades no pueden saber cuantas notificaciones de "Riesgo alto" han sido hechas.
 
- 3. Cuando un usuario de la APP Radar Covid comunica su positivo, los identificadores aleatorios propios que tiene almacenados se cargan en el servidor de diagnósticos positivos que serán descargados por otros usuarios tal como se indica en el apartado 2.
+ 3. Cuando un usuario de la APP Radar COVID comunica su positivo, los identificadores aleatorios propios que tiene almacenados se cargan en el servidor de diagnósticos positivos que serán descargados por otros usuarios tal como se indica en el apartado 2.
 
     Cabe indicar que según se indica en la pregunta I.7 de este [documento](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf) "los identificadores aleatorios generados por ese dispositivo durante los 5 días previos a ese momento se etiquetan como positivos y se lanzan a la nube con consentimiento del usuario". Es decir, no se lanzan a la nube mis identificadores de los 14 días sino algunos menos.
 
@@ -475,6 +475,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.1 
+- Versión: 1.11 
 - Fecha actualización: 26/10/2020
 - [Histórico de cambios](resources/historia.md)
