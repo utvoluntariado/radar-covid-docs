@@ -118,8 +118,6 @@ La **Unidad Tecnológica de Voluntariado, @UTVoluntariado** [en este tuit](https
 
 #### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
 
-NUEVO
-
 Las principales operadoras de telefonía,  @movistar_es @vodafone_es @orange_es @o2es @tuenties @Amena se comprometen a no repercutir el consumo de datos de #RadarCOVID a sus usuarios
 
 [Nota de prensa de La Moncloa](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/asuntos-economicos/Paginas/2020/221020-radarcovid.aspx)
@@ -243,8 +241,6 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 
 
 #### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
-
-NUEV0
 
 La interoperabilidad de las aplicaciones de rastreo europeas que se anuncia que estará disponible en la semana del 26/10/2020 [tuit de la EU](https://twitter.com/EU_Commission/status/1318152800887558144) inicialmente perderá el dato del uso de Radar COVID en España ("Usage Ratio" y otros indicadores que calcula [@pvieito](https://twitter.com/pvieito) para dar cada hora la estadística en [RadarCovidStats](https://twitter.com/radarcovidstats)).
 
