@@ -462,6 +462,8 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 - **CCAA**: Comunidades autónomas españolas
 - **DP3T**: Es un protocolo de código abierto desarrollado en respuesta a la pandemia de coronavirus 2019-2020 para facilitar el [rastreo digital de contactos](https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preservar_la_privacidad) de los participantes infectados.
+- **EFGS** [EU Federation Gateway Service](https://github.com/eu-federation-gateway-service/efgs-federation-gateway). Tiene el objetivo de desarrollar la solución oficial europea para lograr la interoperabilidad de los servidores de diagnósticos, de las aplicaciones de rastreo de contactos, para combatir al COVID-19. 
+- **Identificadores aleatorios.** Cadenas de caracteres que se intercambian dos móviles próximos a través de Bluetooth. Se les suele llamar también ID aleatorios, ID aleatorios Bluetooth, ID efímeros o Rolling Proximity Identifier (RPI, Identificador de proximidad móvil. Ver pregunta E.4
 - **TAN (Transaction Authorization Number)**: códigos de 12 cifras que da el sistema sanitario de las CCAA y sirve para comunicar un diagnóstico positivo.
 - **TEK (Temporary Exposure Key)**: Clave de exposición temporal. Un identificador aleatorio generado diariamente en el dispositivo que utilizan las aplicaciones de exposición como Radar COVID para detectar exposiciones y comunicar diagnósticos positivos.
 
@@ -479,6 +481,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.12 
-- Fecha actualización: 26/10/2020
+- Versión: 1.13 
+- Fecha actualización: 27/10/2020
 - [Histórico de cambios](resources/historia.md)
