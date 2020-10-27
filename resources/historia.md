@@ -2,12 +2,12 @@
 
 27/10/2020 (versión 1.14)
 
-26/10/2020 (versión 1.1)
-
 - Z.1 Las noticias sobre incorporación de Cataluña a Radar COVID
 - A.4 Artículo en Xataka sobre la vulnerabilidad
 - Glosario. Añadidos
 - F.1 Añadir Inmuni de Italia con un enlace a sus estadísticas y sus FAQ
+
+26/10/2020 (versión 1.1)
 
 - A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
 - F.2 Añadir documentos nuevos a  DP-3T
