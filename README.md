@@ -112,9 +112,13 @@ También contesta [en tuit @pvieito](https://twitter.com/pvieito/status/13192247
 
 La **Unidad Tecnológica de Voluntariado, @UTVoluntariado** [en este tuit](https://twitter.com/UTVoluntariado/status/1319552214776664071) y en esta nota [¿Es verdad que Amazon u otras empresas tienen o han tenido acceso a la información generada por Radar COVID?](https://github.com/utvoluntariado/radar-covid-docs/blob/prensa/20201022%20%5BEl%20Pais%5D.md) ha tratado de arrojar luz sobre la noticia publicada por El Pais.
 
+**Ricardo Aguilar** (Ricardo Aguilar Twitter @MrBrickerr) escribe este artículo en **Xataka**
+[Qué ha pasado con la vulnerabilidad de Radar COVID y el supuesto acceso de Amazon a los datos de los usuarios](https://www.xatakamovil.com/aplicaciones/que-ha-pasado-vulnerabilidad-radar-covid-supuesto-acceso-amazon-a-datos-usuarios/amp) "Amazon tan solo podría conocer de dónde a dónde se están enrutando los datos. Es decir, tener constancia de que alguien se está comunicando con el servidor, pero no quién ni de qué manera."
+ 
+
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 23/10/2020 | Enlace de El Pais y tuits citados |
+| Aprobado | 27/10/2020 | Enlace de El Pais y tuits citados |
 
 #### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
 
@@ -424,7 +428,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Cantabria | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
 | Castilla la Mancha |    |   | 03/10/2020 |
 | Castilla y León |    |   | 03/10/2020 |
-| Cataluña | No | [Hipertextual](https://hipertextual.com/2020/10/app-radar-covid-madrid-barcelona-no-operativa-pese-numero-contagios) | 05/10/2020 |
+| Cataluña | No | [Hipertextual](https://hipertextual.com/2020/10/app-radar-covid-madrid-barcelona-no-operativa-pese-numero-contagios) y [SEDIA anuncia en 27/10/2020 que Cataluña ha completado su conexión, con lo que ya todas las CCAA tienen capacidad para repartir códigos a diagnosticados positivos](https://twitter.com/SEDIAgob/status/1321054503387471878) | 27/10/2020 |
 | Ceuta |    |   | 03/10/2020 |
 | Comunidad Valenciana |    |   | 03/10/2020 |
 | Extremadura |    |   | 03/10/2020 |
