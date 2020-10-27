@@ -341,9 +341,9 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | País | Aplicación | Enlaces Relacionados |
 | --- | --- | --- |
 | Alemania | [Corona-Warn-App](https://www.coronawarn.app/en/) | [Documentación](https://github.com/corona-warn-app/cwa-documentation/blob/master/README.md), [Arquitectura](https://github.com/corona-warn-app/cwa-documentation/blob/master/solution_architecture.md) |
-| Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
+| Italia | [Inmuni](https://www.immuni.italia.it/) | [Estadísticas de uso en español](https://www.immuni.italia.it/dashboard.html) [Preguntas y respuestas en español](https://www.immuni.italia.it/faq.html) |
 | Irlanda | [CovidTracker](https://covidtracker.gov.ie/how-the-app-works/) | |
-| Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | |
+| Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | || Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 
 La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
 
@@ -479,6 +479,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.11 
+- Versión: 1.12 
 - Fecha actualización: 26/10/2020
 - [Histórico de cambios](resources/historia.md)
