@@ -442,16 +442,18 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Pais Vasco | Sí | [El Correo](https://www.elcorreo.com/sociedad/salud/directo-rueda-prensa-20200928153045-nt.html) | 03/10/2020 |
 | La Rioja |    |   | 03/10/2020 |
 
-#### <a name="FAQ-Z-2"></a>Z.2. Cómo comunican las Comunidades Autónomas el código de 12 digitos
+#### <a name="FAQ-Z-2"></a>Z.2. Cómo comunican las Comunidades Autónomas (CCAA) el código de 12 digitos
 
 No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
 
 - **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
 - **Pais Vasco**: En el SMS en el Osakidetza comunica el resultado positivo.
 
+Las CCAA piden al Ministerio códigos de 12 dígitos por lotes. El Ministerio envia una ristra de códigos, que llevan todos la misma fecha de caducidad. Las CCAA en este caso ya los tienen y los pueden ir dando al ciudadano que lo pida (_noticia a confirmar_).
+
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 17/10/2020 | --- |
+| Aprobado | 28/10/2020 | --- |
 
 ## Enlaces oficiales
 
@@ -483,6 +485,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.15 
+- Versión: 1.2 
 - Fecha actualización: 28/10/2020
 - [Histórico de cambios](resources/historia.md)
