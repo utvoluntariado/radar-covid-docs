@@ -432,7 +432,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Castilla y León |    |   | 03/10/2020 |
 | Cataluña | No | [Hipertextual](https://hipertextual.com/2020/10/app-radar-covid-madrid-barcelona-no-operativa-pese-numero-contagios) y [SEDIA anuncia en 27/10/2020 que Cataluña ha completado su conexión, con lo que ya todas las CCAA tienen capacidad para repartir códigos a diagnosticados positivos](https://twitter.com/SEDIAgob/status/1321054503387471878) | 27/10/2020 |
 | Ceuta |    |   | 03/10/2020 |
-| Comunidad Valenciana |    |   | 03/10/2020 |
+| Comunidad Valenciana |  No  | [www.informacion.es/alicante/2020/10/21/sanidad-sigue-app-radar-covid-20268502.html](https://www.informacion.es/alicante/2020/10/21/sanidad-sigue-app-radar-covid-20268502.html)  | 21/10/2020 |
 | Extremadura |    |   | 03/10/2020 |
 | Galicia | Sí | [La Voz de Galicia](https://www.lavozdegalicia.es/noticia/sociedad/2020/09/17/tienes-coronavirus-teclea-tu-movil-codigo-da-sergas-avise-tus-contactos-estrechos/00031600351167433512383.htm) | 18/09/2020 |
 | Madrid | Sí | [El Confidencial](https://www.elconfidencial.com/tecnologia/2020-10-08/madrid-radar-covid-aplicacion-rastreo-contactos_2781579/), [El Diario](https://www.eldiario.es/tecnologia/madrid-activa-hoy-app-rastreo-contactos-radar-covid_1_6279298.html) | 09/10/2020 |
@@ -483,6 +483,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.14 
-- Fecha actualización: 27/10/2020
+- Versión: 1.15 
+- Fecha actualización: 28/10/2020
 - [Histórico de cambios](resources/historia.md)
