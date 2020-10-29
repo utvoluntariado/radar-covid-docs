@@ -2,7 +2,7 @@
 
 30/10/2020 (versión 1.21)
 
-Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
+- Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
 
 29/10/2020 (versión 1.21)
 
@@ -17,7 +17,7 @@ Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
 
 26/10/2020 (versión 1.1)
 
-- A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
+- A.5 Rebaja por consumo de datos en Radar COVID en algunas operadoras.
 - F.2 Añadir documentos nuevos a  DP-3T
 - A.2. ¿Cónsume mucha batería Radar COVID? Añadir resultados de un experimento simple
 - D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
@@ -32,7 +32,7 @@ Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
 
 22/10/2020 (versión 0.93)
 
-- NUEVA Incluir A.4 Alegaciones sobre privacidad y seguridad de RadarCovid
+- NUEVA Incluir A.4 Alegaciones sobre privacidad y seguridad de Radar COVID
 
 21/10/2020 (versión 0.922)
 
@@ -40,5 +40,5 @@ Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
 
 - MODIFICAR F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española? 
 
-- NUEVA B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
+- NUEVA B.5. ¿Qué ocurre a Radar COVID después de que se comunica un diagnóstico positivo?
 
