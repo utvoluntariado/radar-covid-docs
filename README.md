@@ -432,7 +432,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Castilla y León |    |   | 03/10/2020 |
 | Cataluña | No | [Hipertextual](https://hipertextual.com/2020/10/app-radar-covid-madrid-barcelona-no-operativa-pese-numero-contagios) y [SEDIA anuncia en 27/10/2020 que Cataluña ha completado su conexión, con lo que ya todas las CCAA tienen capacidad para repartir códigos a diagnosticados positivos](https://twitter.com/SEDIAgob/status/1321054503387471878) | 27/10/2020 |
 | Ceuta |    |   | 03/10/2020 |
-| Comunidad Valenciana |  No  | [www.informacion.es/alicante/2020/10/21/sanidad-sigue-app-radar-covid-20268502.html](https://www.informacion.es/alicante/2020/10/21/sanidad-sigue-app-radar-covid-20268502.html)  | 21/10/2020 |
+| Comunidad Valenciana |  Si  | [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) | 29/10/2020 |
 | Extremadura |    |   | 03/10/2020 |
 | Galicia | Sí | [La Voz de Galicia](https://www.lavozdegalicia.es/noticia/sociedad/2020/09/17/tienes-coronavirus-teclea-tu-movil-codigo-da-sergas-avise-tus-contactos-estrechos/00031600351167433512383.htm) | 18/09/2020 |
 | Madrid | Sí | [El Confidencial](https://www.elconfidencial.com/tecnologia/2020-10-08/madrid-radar-covid-aplicacion-rastreo-contactos_2781579/), [El Diario](https://www.eldiario.es/tecnologia/madrid-activa-hoy-app-rastreo-contactos-radar-covid_1_6279298.html) | 09/10/2020 |
@@ -447,9 +447,8 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
 
 - **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
+- **Comunidad Valenciana**: Por SMS según se indica en esta [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) 
 - **Pais Vasco**: En el SMS en el Osakidetza comunica el resultado positivo.
-
-Las CCAA piden al Ministerio códigos de 12 dígitos por lotes. El Ministerio envia una ristra de códigos, que llevan todos la misma fecha de caducidad. Las CCAA en este caso ya los tienen y los pueden ir dando al ciudadano que lo pida (_noticia a confirmar_).
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -485,6 +484,6 @@ Las CCAA piden al Ministerio códigos de 12 dígitos por lotes. El Ministerio en
 
 ## Versión
 
-- Versión: 1.2 
-- Fecha actualización: 28/10/2020
+- Versión: 1.21 
+- Fecha actualización: 29/10/2020
 - [Histórico de cambios](resources/historia.md)
