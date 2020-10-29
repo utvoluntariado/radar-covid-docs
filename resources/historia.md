@@ -1,8 +1,12 @@
 # Historico de cambios
 
+30/10/2020 (versión 1.21)
+
+Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
+
 29/10/2020 (versión 1.21)
 
-- Z.1 y Z.2 Incorporación de Valencia al código de los 12 dígitos 
+- Z.1 y Z.2 Incorporación de Comunidad Valenciana al código de los 12 dígitos 
 
 27/10/2020 (versión 1.14)
 
