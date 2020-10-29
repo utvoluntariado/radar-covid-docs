@@ -453,7 +453,7 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 28/10/2020 | --- |
+| Aprobado | 30/10/2020 | --- |
 
 ## Enlaces oficiales
 
