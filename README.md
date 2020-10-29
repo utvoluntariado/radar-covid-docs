@@ -430,7 +430,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Cantabria | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
 | Castilla la Mancha |    |   | 03/10/2020 |
 | Castilla y León |    |   | 03/10/2020 |
-| Cataluña | No | [Hipertextual](https://hipertextual.com/2020/10/app-radar-covid-madrid-barcelona-no-operativa-pese-numero-contagios) y [SEDIA anuncia en 27/10/2020 que Cataluña ha completado su conexión, con lo que ya todas las CCAA tienen capacidad para repartir códigos a diagnosticados positivos](https://twitter.com/SEDIAgob/status/1321054503387471878) | 27/10/2020 |
+| Cataluña | No | [Nota del Canal Salut de la Generalitat de Catalunya](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/) | 28/10/2020 |
 | Ceuta |    |   | 03/10/2020 |
 | Comunidad Valenciana |  Si  | [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) | 29/10/2020 |
 | Extremadura |    |   | 03/10/2020 |
@@ -447,6 +447,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
 
 - **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
+- **Cataluña**: Por SMS según se indica en esta [Nota del Canal Salut de la Generalitat de Catalunya solicitándolo en ContacteCovid.cat](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/)
 - **Comunidad Valenciana**: Por SMS según se indica en esta [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) 
 - **Pais Vasco**: En el SMS en el Osakidetza comunica el resultado positivo.
 
@@ -484,6 +485,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.21 
-- Fecha actualización: 29/10/2020
+- Versión: 1.22 
+- Fecha actualización: 30/10/2020
 - [Histórico de cambios](resources/historia.md)
