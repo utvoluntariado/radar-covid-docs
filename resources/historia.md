@@ -1,5 +1,9 @@
 # Historico de cambios
 
+30/10/2020 (versión 1.23)
+
+- B.4 versiones 1.1.0 (Android) y 1.1.1 (iPhone) 
+
 30/10/2020 (versión 1.21)
 
 - Z.1 y Z.2 Incorporación de Cataluña al código de los 12 dígitos
