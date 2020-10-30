@@ -172,6 +172,19 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
  En las direcciones de descarga de Google y Apple, en la parte inferior, aparece el número de versión que estamos descargando.
 
+ 29/10/2020
+ 
+ iPhone 1.1.1, Android 1.1.0
+ 
+ (añadidos en las dos plataformas)
+ 
+- Implementación de funcionalidades para la interoperabilidad con otras aplicaciones europeas.
+- Implementación de funcionalidad de cambio de idioma.
+- Implementación de funcionalidad de revisión de nuevas políticas de privacidad y/o términos de uso.
+- Mejoras de accesibilidad y seguridad.
+- Corrección de bugs.
+
+ 
  A día 09/10/2020 en Android es 1.0.7 y en iOS 1.0.8:
 
 [@AppRadarCovid](https://twitter.com/AppRadarCovid/status/1314476417946660864):
@@ -485,6 +498,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.22 
+- Versión: 1.23 
 - Fecha actualización: 30/10/2020
 - [Histórico de cambios](resources/historia.md)
