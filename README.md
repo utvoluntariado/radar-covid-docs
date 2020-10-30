@@ -199,7 +199,7 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 09/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1314476417946660864) |
+| Aprobado | 30/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1314476417946660864) |
 
 #### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
 
