@@ -5,46 +5,46 @@ _Proyecto de la [Unidad Tecnológica de Voluntariado](http://utv.com.es)._
  
 ## Objeto
 
-Dar respuesta a las consultas que se formulan sobre la app Radar COVID tanto sobre su funcionamiento cómo su arquitectura más técnica. Va dirigida a las personas que no encuentan información oficial suficiente. Responde también a preguntas sobre el proyecto Radar STATS.
+Dar respuesta a las consultas que se formulan sobre la aplicación Radar COVID tanto sobre su funcionamiento cómo su arquitectura más técnica. Va dirigida a las personas que no encuentan información oficial suficiente. Responde también a preguntas sobre el proyecto Radar STATS.
 
 ## Índice
 
-- [__Preguntas frecuentes__](#preguntas-frecuentes)
-  * [__A. Instalación de Radar COVID__](#FAQ-A)
+- [**Preguntas frecuentes**](#preguntas-frecuentes)
+  * [**A. Instalación de Radar COVID**](#FAQ-A)
     * [A.1. ¿En qué móviles se puede instalar?](#FAQ-A-1)
     * [A.2. ¿Cónsume mucha batería Radar COVID?](#FAQ-A-2)
     * [A.3. ¿Tiene fallos de seguridad o privacidad Radar COVID?](#FAQ-A-3)
     * [A.4. Alegaciones sobre privacidad y seguridad de Radar COVID.](#FAQ-A-4)
     * [A.5 Rebaja por consumo de datos en Radar COVID en algunas operadoras.](#FAQ-A-5)
-  * [__B. Funcionamiento de Radar COVID__](#FAQ-B)
+  * [**B. Funcionamiento de Radar COVID**](#FAQ-B)
     * [B.1. ¿Se puede instalar Radar COVID después de que me den el resultado positivo en un test?](#FAQ-B-1)
     * [B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?](#FAQ-B-2)
     * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
     * [B.4. Nuevas versiones de Radar COVID](#FAQ-B-4)
     * [B.5. ¿Qué ocurre a Radar COVID después de que se comunica un diagnóstico positivo?](#FAQ-B-5)
-  * [__C. Errores de Radar COVID__](#FAQ-C)
+  * [**C. Errores de Radar COVID**](#FAQ-C)
     * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
     * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
-  * [__D. Información sobre Radar STATS__](#FAQ-D)
+  * [**D. Información sobre Radar STATS**](#FAQ-D)
     * [D.1. ¿Qué hace Radar STATS?](#FAQ-D-1)
-    * [D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.](#FAQ-D-2)
-  * [__E. Información técnica sobre Radar COVID__](#FAQ-E)
+    * [D.2. La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.](#FAQ-D-2)
+  * [**E. Información técnica sobre Radar COVID**](#FAQ-E)
      * [E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?](#FAQ-E-1)
      * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
      * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-3)
      * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-4)
-  * [__F. Internacional__](#FAQ-F)
+  * [**F. Internacional**](#FAQ-F)
     * [F.1. Aplicaciones similares a Radar COVID en otros países](#FAQ-F-1)
     * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
     * [F.3. Las aplicaciones de diferentes países ¿son compatibles? ¿Un suizo de vacaciones por España, si da positivo y lo mete en SwissCovid, comunica su positivo a quienes tienen la aplicación española?](#FAQ-F-3)
-  * [__Z. Implantación en Comunidades Autónomas__](#FAQ-Z)
+  * [**Z. Implantación en Comunidades Autónomas**](#FAQ-Z)
     * [Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo](#FAQ-Z-1)
     * [Z.2. Cómo comunican las Comunidades Autónomas el código de 12 digitos](#FAQ-Z-2)
-- [__Enlaces oficiales__](#enlaces-oficiales)
-- [__Glosario__](#glosario)
-- [__Reglas de estilo__](#reglas-de-estilo)
-- [__Contacto y colaboradores__](#contacto)
-- [__Versión__](#versión)
+- [**Enlaces oficiales**](#enlaces-oficiales)
+- [**Glosario**](#glosario)
+- [**Reglas de estilo**](#reglas-de-estilo)
+- [**Contacto y colaboradores**](#contacto)
+- [**Versión**](#versión)
 
 ## Preguntas frecuentes
 
@@ -79,7 +79,7 @@ No.
 
 Hemos hecho el siguiente experimento. De su naturaleza no pueden obtenerse conclusiones pero puede dar indicios.
 
-Hemos tomado una Galaxy S7 Edge con Android 8.0. Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión con servicios Internet (whatsapp, twitter y mail) Ha estado en la calle 90 minutos. Tiene Radar COVID instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
+Hemos tomado una Galaxy S7 Edge con Android 8.0. Durante 24 horas no ha hecho ni recibido llamadas. Ha tenido conexión con servicios Internet (WhatsApp, Twitter y Email) Ha estado en la calle 90 minutos. Tiene Radar COVID instalada. Y hemos hecho dos pruebas durante 24 horas cada una: a) con Bluetooth y Ubicación activadas y b) con Bluetooth y Ubicación desactivadas.
 
 - a) La batería ha pasado de una carga del 100% a una carga del 80%.
 - b) La batería ha pasado de una carga del 100% a una carga del 80% (coincide con a).
@@ -205,9 +205,9 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
 Al comunicar un positivo, Radar COVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado. [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317148304711376897).
 
-La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que Radar COVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
+La app informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que Radar COVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
 
-Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en Radar COVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
+Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la app y que aconsejamos no utilizar. [Códigos ficticios en Radar COVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
 
 
 | Estado | Actualización | Fuentes |
@@ -257,7 +257,7 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 | Aprobado | 08/10/2020 | [Radar STATS](https://github.com/Radar-STATS/Radar-STATS#documentation), [Radar STATS – iOS](https://github.com/Radar-STATS/Radar-STATS-iOS) |
 
 
-#### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
+#### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.
 
 El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1322142080483864577) 
 
@@ -340,13 +340,13 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
     Hasta donde sabemos, no podemos ver si un móvil cercano nos ha enviado sus identificadores ni ver qué identificadores, propios o de terceros, tenemos almacenados. Por tanto, no podemos saber si nuestros móviles tienen bien instalada Radar Covid y tampoco podemos saber si nuestro vecino, desde una ventana cercana a la nuestra o desde el piso de arriba está intercambiando identificadores con nosotros.
 
- 2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas E.1 y E.2). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar COVID indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
+2. Dos veces al día mi móvil descarga, del servidor de diagnósticos positivos, los identificadores aleatorios que se han subido recientemente a ese servidor por quienes han comunicado su diagnóstico positivo. Mi móvil compara esos identificadores aleatorios con los que he almacenado en dias previos provenientes de otros móviles y si encuentra alguna coincidencia la marca como "matchCount" en las Notificaciones de Exposición (ver preguntas E.1 y E.2). En ese caso mi móvil habrá estado cerca de un positivo y me lo comunicará ("**Riesgo alto. Tu exposición es alta**"). Si no encuentra coincidencia, Radar COVID indicará "**Riesgo bajo. Sin contactos de riesgo identificados**". En el fichero adjunto ([hoja de cálculo](resources/comprobaciones_exposicion.xlsx), [pantallazo](resources/comprobaciones_exposicion.jpg)) se ilustran las **comprobaciones de exposición** que se han generado tras cada descarga.
 
     Por tanto, si me comunican "Riesgo alto" ninguna autoridad ni ningún servidor me está enviando un mensaje. Es mi propio móvil quien genera las notificaciones, con la información descargada del servidor y los identificadores aleatorios de terceros que mi móvil tenia almacenados.
 
     Por este motivo, las autoridades no pueden saber cuantas notificaciones de "Riesgo alto" han sido hechas.
 
- 3. Cuando un usuario de la APP Radar COVID comunica su positivo, los identificadores aleatorios propios que tiene almacenados se cargan en el servidor de diagnósticos positivos que serán descargados por otros usuarios tal como se indica en el apartado 2.
+3. Cuando un usuario de la aplicación Radar COVID comunica su positivo, los identificadores aleatorios propios que tiene almacenados se cargan en el servidor de diagnósticos positivos que serán descargados por otros usuarios tal como se indica en el apartado 2.
 
     Cabe indicar que según se indica en la pregunta I.7 de este [documento](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf) "los identificadores aleatorios generados por ese dispositivo durante los 5 días previos a ese momento se etiquetan como positivos y se lanzan a la nube con consentimiento del usuario". Es decir, no se lanzan a la nube mis identificadores de los 14 días sino algunos menos.
 
@@ -374,7 +374,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 
 
-La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
+La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [aplicación de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
@@ -417,17 +417,15 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
 
 Según indica el servicio de soporte de Twitter @AppRadarCovid en este [tuit](https://twitter.com/AppRadarCovid/status/1317050752439812097):
 
-_Radar COVID se incorpora a las pruebas del marco de interoperabilidad de la Comisión Europea_
-
-_Las pruebas se extenderán unas tres semanas (a partir del 16/10)_
-
-_Una vez superadas, las apps de los Estados miembros adheridos serán compatibles_
+> - Radar COVID se incorpora a las pruebas del marco de interoperabilidad de la Comisión Europea.
+> - Las pruebas se extenderán unas tres semanas (a partir del 16/10).
+> - Una vez superadas, las apps de los Estados miembros adheridos serán compatibles.
 
 @pvieito intuye, en este [tuit](https://twitter.com/pvieito/status/1317185321428287502), que esas pruebas de interoperabilidad han comenzado.
 
-La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [APP de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
+La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tiene una [app de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en)
 
-Las APP Corona-Warn-App (Alemania) e Immuni (Italia) han sido actualizadas para funcionar con la interoperabilidad europea según se indica en 20/10/2020 [aquí.](https://twitter.com/pvieito/status/1318593010200924160)
+Las app Corona-Warn-App (Alemania) e Immuni (Italia) han sido actualizadas para funcionar con la interoperabilidad europea según se indica en 20/10/2020 [aquí.](https://twitter.com/pvieito/status/1318593010200924160)
 
 Se puede ver en una de las ayudas de iPhone (Ajustes > Notificaciones de exposición > Cómo funcionan las notificaciones de exposición > Más información > Notificaciones de exposición y la privacidad, párrafo 7)
 
