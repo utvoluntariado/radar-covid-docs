@@ -259,7 +259,19 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 
 #### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
 
-La interoperabilidad de las aplicaciones de rastreo europeas que se anuncia que estará disponible en la semana del 26/10/2020 [tuit de la EU](https://twitter.com/EU_Commission/status/1318152800887558144) inicialmente perderá el dato del uso de Radar COVID en España ("Usage Ratio" y otros indicadores que calcula [@pvieito](https://twitter.com/pvieito) para dar cada hora la estadística en [RadarCovidStats](https://twitter.com/radarcovidstats)).
+El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid] (https://twitter.com/AppRadarCovid/status/1322142080483864577) 
+
+Un usuario de Radar COVID podrá recibir alertas de contacto de riesgo con usuarios de esas otras apps de otros paises.
+
+Usuarios de esas otras apps podrán recibir alertas de contacto de riesgo con usuarios de Radar COVID
+
+- CoronaWarnApp (Alemania)
+- Immuni (Italia)
+- COVIDTracker (Irlanda)
+- StopCOVID19 (Croacia)
+- apturicovid (Lituania)
+
+En las próximas semanas se irán uniendo apps de más países adheridos al nodo de interoperabilidad
 
 En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
 
@@ -268,7 +280,7 @@ En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 26/10/2020 | [Desarrollo de EFGS](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209)|
+| Aprobado | 31/10/2020 | [Desarrollo de EFGS](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209)|
 
 
 
@@ -354,8 +366,10 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | País | Aplicación | Enlaces Relacionados |
 | --- | --- | --- |
 | Alemania | [Corona-Warn-App](https://www.coronawarn.app/en/) | [Documentación](https://github.com/corona-warn-app/cwa-documentation/blob/master/README.md), [Arquitectura](https://github.com/corona-warn-app/cwa-documentation/blob/master/solution_architecture.md) |
+| Croacia | [Stop-COVID-19](https://github.com/Stop-COVID-19-Croatia) | |
 | Italia | [Inmuni](https://www.immuni.italia.it/) | [Estadísticas de uso en español](https://www.immuni.italia.it/dashboard.html) [Preguntas y respuestas en español](https://www.immuni.italia.it/faq.html) |
 | Irlanda | [CovidTracker](https://covidtracker.gov.ie/how-the-app-works/) | |
+| Lituania | [apturicovid](https://www.apturicovid.lv/) | [FAQ en inglés](https://www.apturicovid.lv/biezak-uzdotie-jautajumi) |
 | Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | || Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 | Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 
@@ -498,6 +512,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.23 
+- Versión: 1.3 
 - Fecha actualización: 30/10/2020
 - [Histórico de cambios](resources/historia.md)
