@@ -104,7 +104,7 @@ Ha suscitado dudas que en Android obliga a tener activada la localización o ubi
 **A.4.1 El Pais avisa 22/10/2020** de "una brecha de seguridad" en Radar COVID: "si hay subida al servidor implica que el usuario es positivo. Quien tenga acceso al tráfico, por tanto, sabe quién lo es" [enlace](https://elpais.com/tecnologia/2020-10-22/la-app-radar-covid-ha-tenido-una-brecha-de-seguridad-desde-su-lanzamiento.html)
 
 Le contesta [en tuit @imartinezortiz](https://twitter.com/imartinezortiz/status/1319201482407923714): 
-> La noticia es alarmista. Amazon Web Services puede conocer la interacción, al igual que el proveedor de internet del usuario del teléfono ya que: 1) la resolución DNS por defecto no está cifrada, 2) las conexiones TLS, por defecto, también pueden saber el servidor de destino. Los datos enviados son anónimos y requerirían colaboración  para asignar un nombre a la IP origen (aunque hay otras maneras). Para eso existen los contratos con los proveedores de la nube, para que no miren la tubería, si no tendríamos los servidores debajo de la mesa. Los datos son anónimos y la comunicación está cifrada. El sustrato sobre el que se construye RadarCovid es el mismo que se utiliza en el resto de aplicaciones europeas.
+> La noticia es alarmista. Amazon Web Services puede conocer la interacción, al igual que el proveedor de internet del usuario del teléfono ya que: 1) la resolución DNS por defecto no está cifrada, 2) las conexiones TLS, por defecto, también pueden saber el servidor de destino. Los datos enviados son anónimos y requerirían colaboración  para asignar un nombre a la IP origen (aunque hay otras maneras). Para eso existen los contratos con los proveedores de la nube, para que no miren la tubería, si no tendríamos los servidores debajo de la mesa. Los datos son anónimos y la comunicación está cifrada. El sustrato sobre el que se construye Radar COVID es el mismo que se utiliza en el resto de aplicaciones europeas.
 >
 
 También contesta [en tuit @pvieito](https://twitter.com/pvieito/status/1319224757619916800) 
@@ -120,7 +120,7 @@ La **Unidad Tecnológica de Voluntariado, @UTVoluntariado** [en este tuit](https
 | --- | --- | --- |
 | Aprobado | 27/10/2020 | Enlace de El Pais y tuits citados |
 
-#### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en RadarCovid en algunas operadoras.
+#### <a name="FAQ-A-5"></a>A.5 Rebaja por consumo de datos en Radar COVID en algunas operadoras.
 
 Las principales operadoras de telefonía,  @movistar_es @vodafone_es @orange_es @o2es @tuenties @Amena se comprometen a no repercutir el consumo de datos de Radar COVID a sus usuarios
 
@@ -201,13 +201,13 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 | --- | --- | --- |
 | Aprobado | 30/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1314476417946660864) |
 
-#### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a RadarCOVID después de que se comunica un diagnóstico positivo?
+#### <a name="FAQ-B-5"></a> B.5. ¿Qué ocurre a Radar COVID después de que se comunica un diagnóstico positivo?
 
-Al comunicar un positivo, Radar COVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado.  [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317148304711376897).
+Al comunicar un positivo, Radar COVID deja de intercambiar identificadores aleatorios con otros móviles porque se asume que se está confinado. [AppRadarCovid lo indica en un tuit](https://twitter.com/AppRadarCovid/status/1317148304711376897).
 
 La APP informa de que el [diagnóstico ha sido enviado](resources/b05.jpg) y que Radar COVID ha quedado desactivada. Para reactivarla hay que desinstalar y volverla a instalar.
 
-Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en RadarCOVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
+Esta desactivación se produce incluso cuando se utiliza un código de 12 dígitos ficticio utilizado para las probar la APP y que aconsejamos no utilizar. [Códigos ficticios en Radar COVID FAKE_CODE](https://github.com/RadarCOVID/radar-covid-backend-verification-server/commit/2958d3d13203ed2373eb032281ef4d67ab6e3e59)
 
 
 | Estado | Actualización | Fuentes |
@@ -268,13 +268,12 @@ Usuarios de esas otras apps podrán recibir alertas de contacto de riesgo con us
 - CoronaWarnApp (Alemania)
 - Immuni (Italia)
 - COVIDTracker (Irlanda)
-- StopCOVID19 (Croacia)
-- apturicovid (Lituania)
+- Apturi Covid (Letonia)
 - Radar COVID (España)
 
 En las próximas semanas se irán uniendo apps de más países adheridos al nodo de interoperabilidad
 
-En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
+> En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
 
 [@pvieito](https://twitter.com/pvieito) ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los [TEK de cada pais](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209) para poder monitorizar el rendimiento de cada uno.
 
@@ -289,11 +288,11 @@ En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el
 
 #### <a name="FAQ-E-1"></a>E.1. ¿Cómo puedo ver el listado de comprobaciones de exposición en Android?
 
- En Android con 8.0.0:
+En Android con 8.0.0:
 
- Ajustes > Google > Notificaciones de exposición al COVID-19 > [Comprobaciones de exposición](resources/401a.jpg) ([resultado](resources/401b.jpg) o [detalle de la exposición](resources/401d.jpg)).
+Ajustes > Google > Notificaciones de exposición al COVID-19 > [Comprobaciones de exposición](resources/401a.jpg) ([resultado](resources/401b.jpg) o [detalle de la exposición](resources/401d.jpg)).
 
- En la parte superior derecha de la pantalla, pulsando [Exportar comprobaciones de exposición](resources/401c.jpg) se pueden enviar por correo electrónico a una dirección. Adjuntan un fichero similar a `all-exposure-checks20.json`. Este fichero se puede abrir en cualquier editor de texto.
+En la parte superior derecha de la pantalla, pulsando [Exportar comprobaciones de exposición](resources/401c.jpg) se pueden enviar por correo electrónico a una dirección. Adjuntan un fichero similar a `all-exposure-checks20.json`. Este fichero se puede abrir en cualquier editor de texto.
  
 Una "Comprobación de exposición" es similar a:
 
@@ -309,7 +308,7 @@ Una "Comprobación de exposición" es similar a:
 
 #### <a name="FAQ-E-2"></a>E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?
 
- En iPhone con iOS 13.7:
+En iPhone con iOS 13.7:
 
 Ajustes > Notificaciones de exposición > [Activo](resources/402a.png) (pulsar etiqueta) > [Comprobaciones de exposición](resources/402b.png) > Introducir el código del iPhone ([resultado](resources/402c.jpg) o [detalle de la exposición](resources/402d.jpg)).
 
@@ -370,7 +369,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | Croacia | [Stop-COVID-19](https://github.com/Stop-COVID-19-Croatia) | |
 | Italia | [Inmuni](https://www.immuni.italia.it/) | [Estadísticas de uso en español](https://www.immuni.italia.it/dashboard.html) [Preguntas y respuestas en español](https://www.immuni.italia.it/faq.html) |
 | Irlanda | [CovidTracker](https://covidtracker.gov.ie/how-the-app-works/) | |
-| Lituania | [apturicovid](https://www.apturicovid.lv/) | [FAQ en inglés](https://www.apturicovid.lv/biezak-uzdotie-jautajumi) |
+| Letonia | [apturicovid](https://www.apturicovid.lv/) | [FAQ en inglés](https://www.apturicovid.lv/biezak-uzdotie-jautajumi) |
 | Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | |
 | Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 
@@ -418,7 +417,7 @@ Documentos técnicos que describen el intercambio de identificadores efímeros e
 
 Según indica el servicio de soporte de Twitter @AppRadarCovid en este [tuit](https://twitter.com/AppRadarCovid/status/1317050752439812097):
 
-_RadarCOVID se incorpora a las pruebas del marco de interoperabilidad de la Comision Europea_
+_Radar COVID se incorpora a las pruebas del marco de interoperabilidad de la Comisión Europea_
 
 _Las pruebas se extenderán unas tres semanas (a partir del 16/10)_
 
@@ -458,7 +457,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Cantabria | Sí | [Xataka Móvil](https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19) | 03/10/2020 |
 | Castilla la Mancha |    |   | 03/10/2020 |
 | Castilla y León |    |   | 03/10/2020 |
-| Cataluña | No | [Nota del Canal Salut de la Generalitat de Catalunya](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/) | 28/10/2020 |
+| Cataluña | Sí | [Nota del Canal Salut de la Generalitat de Catalunya](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/) | 28/10/2020 |
 | Ceuta |    |   | 03/10/2020 |
 | Comunidad Valenciana |  Si  | [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) | 29/10/2020 |
 | Extremadura |    |   | 03/10/2020 |
