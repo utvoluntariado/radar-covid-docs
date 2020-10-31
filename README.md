@@ -259,7 +259,7 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 
 #### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las APP europeas y la pérdida de detalle estadístico.
 
-El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid] (https://twitter.com/AppRadarCovid/status/1322142080483864577) 
+El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1322142080483864577) 
 
 Un usuario de Radar COVID podrá recibir alertas de contacto de riesgo con usuarios de esas otras apps de otros paises.
 
