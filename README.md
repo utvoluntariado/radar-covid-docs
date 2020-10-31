@@ -371,7 +371,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | Italia | [Inmuni](https://www.immuni.italia.it/) | [Estadísticas de uso en español](https://www.immuni.italia.it/dashboard.html) [Preguntas y respuestas en español](https://www.immuni.italia.it/faq.html) |
 | Irlanda | [CovidTracker](https://covidtracker.gov.ie/how-the-app-works/) | |
 | Lituania | [apturicovid](https://www.apturicovid.lv/) | [FAQ en inglés](https://www.apturicovid.lv/biezak-uzdotie-jautajumi) |
-| Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | || Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
+| Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | |
 | Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 
 
