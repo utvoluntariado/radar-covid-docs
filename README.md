@@ -270,6 +270,7 @@ Usuarios de esas otras apps podrán recibir alertas de contacto de riesgo con us
 - COVIDTracker (Irlanda)
 - StopCOVID19 (Croacia)
 - apturicovid (Lituania)
+- Radar COVID (España)
 
 En las próximas semanas se irán uniendo apps de más países adheridos al nodo de interoperabilidad
 
