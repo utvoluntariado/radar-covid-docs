@@ -1,5 +1,10 @@
 # Historico de cambios
 
+05/11/2020 (versión 1.32)
+
+- Z.1 y Z.2 Actualizar información sobre comunidades
+- C.2 Añadir captura de pantalla
+
 30/10/2020 (versión 1.3)
 
 - D.2 y F.1 Interoperabilidad con las aplicaciones europeas y nuevos enlaces internacionales
