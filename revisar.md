@@ -1,36 +1,19 @@
 # FAQ a revisar antes de ser publicadas
-
-Carme Artigas Brugal
-Secretaria de Estado de Digitalización e  Inteligencia Artificial.
-Vicepresidencia de Asuntos Económicos y Transformación Digital.
-(no encuentro email de ella ni de SEDIA)
-
-Queriamos pedir que Radar COVID incluya algunos indicadores públicos que se indican a continuación.
-
-Estamos firmemente convencidos de la utilidad que Radar COVID puede prestar en el control de la pandemia, pero pensamos que además de los mensajes de estímulo que envian desde SEDIA y otras muchas instituciones es preciso saber si está funcionando de acuerdo a lo previsto para transmitir a la opinión pública las ventajas de la APP y la conveniencia de tenerla instalada.
-
-Sugerimos los siguientes indicadores:
-
-a) Número de contagiados que comunican su positivo ("shared diagnoses")
-
-b) APP que están activas (no cuántas se han descargado). El número de APP que establecen conexión para descargar sus "comprobaciones de exposición" seria el indicador. 
-
-Puede ser útil esta entrevista a Salathe https://www.elconfidencial.com/tecnologia/2020-09-06/app-radar-covid-swisscovid-marcel-salathe_2734583/ "Y digo probablemente porque no medimos descargas, es una cifra muy basta, medimos la actividad real de la gente con la aplicación de diferentes formas, a través de las peticiones que hace la 'app' a los servidores."
-
-c) Porcentaje de sanitarios que en cada CCAA dan el codigo de 12 dígitos para comunicar el diagnóstico cuando comunican un positivo al "paciente". Basta con una estimación si no es posible dar datos precisos (en la última semana).
-
-d) Número de consultas al sistema sanitario de cada CCAA con la demanda "he recibido una notificación es contacto de riesgo" a través de mi Radar Covid. Preferiblemente, por Comunidad Autónoma.
-
-e) Las alertas que se producen cuando una persona comunica su positivo. Habría que añadir estadísticas anónimas a la APP, pero si son voluntarias es muy razonable: la APP irlandesa las publica y es una métrica muy interesante (https://covidtracker.gov.ie/privacy-and-data/)
-
-f) Que el proyecto de interoperabilidad europea EFGS añada mecanismos para descargar el número de TEK que han comunicado los positivos de cada estado ya que parece que con la entrada en funcionamiento, en los próximos días, de la interoperabilidad va a desaparecer el atributo del "pais" en el servidor de diagnósticos.
+#### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.
 
 
-Le escribo en nombre de la Unidad Tecnológica de Voluntariado (https://utv.com.es/), un grupo de voluntarios sin ánimo de lucro que crean y mantienen soluciones tecnológicas útiles y libres y desean contribuir desde su conocimiento en el área tecnológica a derrotar al virus y acabar con la emergencia sanitaria. Nuestras aportaciones aparecen en https://noticias.utv.com.es/. La Unidad Tecnológica de Voluntariado ha informado de las características, funcionamiento y uso de Radar COVID y lo va a seguir haciendo y animando a los ciudadanos a que la instalen. 
+El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1322142080483864577) 
 
-Firmante...
+Radar COVID ha integrado sus servidores de positivos (TEK) con algunos paises europeos: Alemania, Italia, República Checa, Dinamarca, Letonia o Irlanda. Si hemos estado cerca de un italiano y este comunica un diagnóstico positivo, nosotros, en España, recibiremos la notificación de Exposición alta"
 
+En las próximas semanas se irán uniendo apps de más países adheridos al nodo de interoperabilidad
 
-Actualizado: 26/10/2020 version 15
+> En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
+
+Lamentablemente, perdemos las estadísticas de uso a nivel de España que venían siendo publicadas en [@RadarCOVIDSTATS](https://twitter.com/RadarCOVIDSTATS). Ahora esos recuentos se hacen para los paises que se han integrado. El porcentaje de casos que comunicaron su positivo ("Usage ratio") ha subido del 1% de los últimos dias de octubre a más del 4%. [@UTVoluntariado](utv.com.es) ha pedido al equipo de desarrollo de Radar COVID que [añada estadísticas](https://github.com/RadarCOVID/radar-covid-backend-dp3t-server/issues/8#issue-734461489), a semejanza de otras aplicaciones europeas, para estimular su uso.
+
+Al comuincar un nuevo positivo en Radar COVID, nos pregunta, tras indicar la fecha de diagnóstico, si queremos "Compartir con personas usuarias de Radar COVID" o "Compartir con personas usuarias de Radar COVID y aplicaciones europeas" [@UTVoluntariado ha pedido que se cambie la respuesta por defecto](https://github.com/RadarCOVID/radar-covid-ios/issues/39#issue-733986441).
+
+Actualizado: 05/11/2020 version 16
 
 
