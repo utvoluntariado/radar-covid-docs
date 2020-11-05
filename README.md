@@ -229,16 +229,18 @@ Esta desactivación se produce incluso cuando se utiliza un código de 12 dígit
 
 #### <a name="FAQ-C-2"></a>C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”
 
- Una o varias de estas soluciones han funcionado:
+([ver captura de pantalla](/resources/c2_al_cargar_infeccion.jpg))
 
- a) Desactivar y volver a activar las notificaciones de exposición
- b) Apagar y encender el teléfono.
- c) Actualizar Google Play 
- d) Limpiar la caché de las apps (en Android: Ajustes > Mantenimiento dispositivo > Almacenamiento > Aplicaciones > Radar COVID > Almacenamiento > Borrar Caché)
+Una o varias de estas soluciones han funcionado:
+
+ - a) Desactivar y volver a activar las notificaciones de exposición
+ - b) Apagar y encender el teléfono.
+ - c) Actualizar Google Play 
+ - d) Limpiar la caché de las apps (en Android: Ajustes > Mantenimiento dispositivo > Almacenamiento > Aplicaciones > Radar COVID > Almacenamiento > Borrar Caché)
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 06/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1311959104731189250) |
+| Aprobado | 05/11/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1311959104731189250) |
 
 ### <a name="FAQ-C"></a>D. Información sobre Radar STATS
 
@@ -458,7 +460,7 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Cataluña | Sí | [Nota del Canal Salut de la Generalitat de Catalunya](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/) | 28/10/2020 |
 | Ceuta |    |   | 03/10/2020 |
 | Comunidad Valenciana |  Si  | [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) | 29/10/2020 |
-| Extremadura |    |   | 03/10/2020 |
+| Extremadura | Sí | [Divulgación de Salud Extremadura](https://saludextremadura.ses.es/filescms/web/uploaded_files/Documentos/Infografia%20RADAR-Covid.pdf)  | 05/11/2020 |
 | Galicia | Sí | [La Voz de Galicia](https://www.lavozdegalicia.es/noticia/sociedad/2020/09/17/tienes-coronavirus-teclea-tu-movil-codigo-da-sergas-avise-tus-contactos-estrechos/00031600351167433512383.htm) | 18/09/2020 |
 | Madrid | Sí | [El Confidencial](https://www.elconfidencial.com/tecnologia/2020-10-08/madrid-radar-covid-aplicacion-rastreo-contactos_2781579/), [El Diario](https://www.eldiario.es/tecnologia/madrid-activa-hoy-app-rastreo-contactos-radar-covid_1_6279298.html) | 09/10/2020 |
 | Melilla |    |   | 03/10/2020 |
@@ -472,13 +474,15 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
 
 - **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
-- **Cataluña**: Por SMS según se indica en esta [Nota del Canal Salut de la Generalitat de Catalunya solicitándolo en ContacteCovid.cat](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/)
-- **Comunidad Valenciana**: Por SMS según se indica en esta [Nota de prensa de la Generalitat Valenciana](https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=899409) 
+- **Cataluña**: Si tiene una prueba diagnóstica positiva de Covid-19, recibirá un SMS de la herramienta digital ContacteCovid.cat. Desde allí, puede solicitar el código para introducirlo en Radar COVID. [Canal Salut de la Generalitat](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/).
+- **Comunidad Valenciana**: [Obtención del código para la notificación de positivo en la aplicación Radar COVID](https://coronavirusregistro.san.gva.es/sipcovid19/asignacodigo?language=es) 
+- **Extremadura**: Cuando una persona con la app descargada y activa es diagnosticada de COVID19, el profesional que le está informando le proporciona un código alfanumérico que, voluntariamente, puede introducir en su aplicación [pregunta si tiene Radar COVID instalado y le dicta el número obtenido por el personal desde la aplicación JARA, que es la que contiene el código]. A partir del momento en que se introduce el código, la aplicación envía un mensaje a las app de todos los dispositivos móviles que estuvieron a menos de 2m durante 15 min o más en los 5 días anteriores. [Servicio Extremeño de Salud](https://saludextremadura.ses.es/web/1698846).
+- **Galicia**: Desde la Central de Seguimiento de Contactos, te facilitan un código alfanumérico. [Servizo Galego de Saúde] (https://coronavirus.sergas.gal/Contidos/Documents/485/RCOVID-DU-v.01.10-GR-RadarCovid_ES.pdf)
 - **Pais Vasco**: En el SMS en el Osakidetza comunica el resultado positivo.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 30/10/2020 | --- |
+| Aprobado | 05/11/2020 | --- |
 
 ## Enlaces oficiales
 
@@ -489,6 +493,7 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Glosario
 
+- **BLE** (Bluetooth Low Energy) BLE opera en la banda ISM (bandas de radio industriales, científicas y médicas ) de 2.4 GHz. Sin embargo, a diferencia del Bluetooth clásico, BLE permanece en modo de suspensión constantemente, excepto cuando se inicia una conexión. Proporciona un bajo consumo de energía a un costo considerablemente reducido.
 - **CCAA**: Comunidades autónomas españolas
 - **DP3T**: Es un protocolo de código abierto desarrollado en respuesta a la pandemia de coronavirus 2019-2020 para facilitar el [rastreo digital de contactos](https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preservar_la_privacidad) de los participantes infectados.
 - **EFGS** [EU Federation Gateway Service](https://github.com/eu-federation-gateway-service/efgs-federation-gateway). Tiene el objetivo de desarrollar la solución oficial europea para lograr la interoperabilidad de los servidores de diagnósticos, de las aplicaciones de rastreo de contactos, para combatir al COVID-19. 
@@ -510,6 +515,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.3 
-- Fecha actualización: 30/10/2020
+- Versión: 1.32 
+- Fecha actualización: 05/11/2020
 - [Histórico de cambios](resources/historia.md)
