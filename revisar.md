@@ -12,7 +12,7 @@ En las próximas semanas se irán uniendo apps de más países adheridos al nodo
 
 Lamentablemente, perdemos las estadísticas de uso a nivel de España que venían siendo publicadas en [@RadarCOVIDSTATS](https://twitter.com/RadarCOVIDSTATS). Ahora esos recuentos se hacen para los paises que se han integrado. El porcentaje de casos que comunicaron su positivo ("Usage ratio") ha subido del 1% de los últimos dias de octubre a más del 4%. [@UTVoluntariado](http://utv.com.es) ha pedido al equipo de desarrollo de Radar COVID que [añada estadísticas](https://github.com/RadarCOVID/radar-covid-backend-dp3t-server/issues/8#issue-734461489), a semejanza de otras aplicaciones europeas, para estimular su uso.
 
-Al comuincar un nuevo positivo en Radar COVID, nos pregunta, tras indicar la fecha de diagnóstico, si queremos "Compartir con personas usuarias de Radar COVID" o "Compartir con personas usuarias de Radar COVID y aplicaciones europeas" [@UTVoluntariado ha pedido que se cambie la respuesta por defecto](https://github.com/RadarCOVID/radar-covid-ios/issues/39#issue-733986441).
+Al comunicar un nuevo positivo en Radar COVID, nos pregunta, tras indicar la fecha de diagnóstico, si queremos "Compartir con personas usuarias de Radar COVID" o "Compartir con personas usuarias de Radar COVID y aplicaciones europeas" [@UTVoluntariado ha pedido que se cambie la respuesta por defecto](https://github.com/RadarCOVID/radar-covid-ios/issues/39#issue-733986441).
 
 Actualizado: 05/11/2020 version 16
 
