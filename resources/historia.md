@@ -1,5 +1,10 @@
 # Historico de cambios
 
+07/11/2020 (versión 1.4)
+
+- D.2 Añadir en La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.
+- F.1 Añadir relación de aplicaciones de otros paises europeos.
+
 05/11/2020 (versión 1.32)
 
 - Z.1 y Z.2 Actualizar información sobre comunidades
