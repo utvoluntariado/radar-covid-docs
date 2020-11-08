@@ -375,7 +375,7 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
 La relación completa de los paises que cuentan con una aplicación de rastreo de contactos es la [web de la Comisión Europea](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en). 
 
-La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [aplicación de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
+La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [aplicación de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad. Puede encontrarse más información en D.2.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
