@@ -261,28 +261,26 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 
 #### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.
 
+
 El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1322142080483864577) 
 
-Un usuario de Radar COVID podrá recibir alertas de contacto de riesgo con usuarios de esas otras apps de otros paises.
+Radar COVID ha integrado sus servidores de positivos (TEK) con algunos paises europeos: Alemania, Italia, Letonia o Irlanda. Si hemos estado cerca de un italiano y este comunica un diagnóstico positivo, nosotros, en España, recibiremos la notificación de Exposición alta"
 
-Usuarios de esas otras apps podrán recibir alertas de contacto de riesgo con usuarios de Radar COVID
+En las próximas semanas se irán uniendo apps de más países adheridos al nodo de interoperabilidad.
 
-- CoronaWarnApp (Alemania)
-- Immuni (Italia)
-- COVIDTracker (Irlanda)
-- Apturi Covid (Letonia)
-- Radar COVID (España)
+La relación completa de los paises integrados es la [web de la Comisión Europea](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en). 
 
-En las próximas semanas se irán uniendo apps de más países adheridos al nodo de interoperabilidad
+En esta tabla generada por [@pvieito](https://twitter.com/pvieito) en [@RadarStatsCovid](https://github.com/pvieito/Radar-STATS#documentation) **Multi-Backend Summary Table** calcula el porcentaje de TEK (ver [Glosario](https://utvoluntariado.github.io/radar-covid-docs/#glosario)) del servidor A de un pais (backend A) que están presentes en el servidor B de otro pais (backend B).
 
 > En cuanto activen la integración con la EFGS (eu-federation-gateway-service) el ratio de uso se calculará respecto a la suma de los casos de los países integrados (source countries) pero claro, ya será un ratio de uso agregado para las aplicaciones de la UE, y no concreto o específico de Radar COVID.
 
-[@pvieito](https://twitter.com/pvieito) ha pedido al equipo de desarrollo de la integración europea que EFGS proporcione algún modo de obtener los [TEK de cada pais](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209) para poder monitorizar el rendimiento de cada uno.
+Lamentablemente, perdemos las estadísticas de uso a nivel de España que venían siendo publicadas en [@RadarCOVIDSTATS](https://twitter.com/RadarCOVIDSTATS). Ahora esos recuentos se hacen para los paises que se han integrado. El porcentaje de casos que comunicaron su positivo ("Usage ratio") ha subido del 1% de los últimos dias de octubre a más del 4%. [@UTVoluntariado](http://utv.com.es) ha pedido al equipo de desarrollo de Radar COVID que [añada estadísticas](https://github.com/RadarCOVID/radar-covid-backend-dp3t-server/issues/8#issue-734461489), a semejanza de otras aplicaciones europeas, para estimular su uso.
 
+Al comunicar un nuevo positivo en Radar COVID, nos pregunta, tras indicar la fecha de diagnóstico, si queremos "Compartir con personas usuarias de Radar COVID" o "Compartir con personas usuarias de Radar COVID y aplicaciones europeas" [@UTVoluntariado ha pedido que se cambie la respuesta por defecto](https://github.com/RadarCOVID/radar-covid-ios/issues/39#issue-733986441).
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 31/10/2020 | [Desarrollo de EFGS](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209)|
+| Aprobado | 07/11/2020 | [Desarrollo de EFGS](https://github.com/eu-federation-gateway-service/efgs-federation-gateway/issues/209)|
 
 
 
@@ -375,12 +373,13 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | Portugal | [StayawayCOVID](https://stayawaycovid.pt/funcionamento/) | |
 | Suiza | [SwissCovid](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/swisscovid-app-und-contact-tracing.html) | [Estadísticas](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) |
 
+La relación completa de los paises que cuentan con una aplicación de rastreo de contactos es la [web de la Comisión Europea](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en). 
 
 La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [aplicación de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 20/10/2020 | |
+| Aprobado | 07/11/2020 | |
 | Aprobado | 20/10/2020 | https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904 |
 | Aprobado | 20/10/2020 | https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en |
 
@@ -515,6 +514,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.32 
-- Fecha actualización: 05/11/2020
+- Versión: 1.4 
+- Fecha actualización: 07/11/2020
 - [Histórico de cambios](resources/historia.md)
