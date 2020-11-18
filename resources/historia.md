@@ -1,5 +1,10 @@
 # Historico de cambios
 
+18/11/2020 (versión 1.41)
+
+- Z.1 Añadir enlace a artículo de El Pais de 15/11/2020
+- Z.2 Poner enlace en el procedimiento de Aragón
+
 07/11/2020 (versión 1.4)
 
 - D.2 Añadir en La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.
