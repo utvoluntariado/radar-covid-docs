@@ -468,11 +468,19 @@ La siguiente tabla contiene las comunidades que entregan el código necesario (a
 | Pais Vasco | Sí | [El Correo](https://www.elcorreo.com/sociedad/salud/directo-rueda-prensa-20200928153045-nt.html) | 03/10/2020 |
 | La Rioja |    |   | 03/10/2020 |
 
+Jordi Perez Colome ofreció datos de uso y alcance en [15/11/2020 en El Pais](https://elpais.com/tecnologia/2020-11-14/el-gran-misterio-de-cuanta-gente-ha-usado-realmente-radar-covid.html)
+
+En este [tuit](https://twitter.com/jordipc/status/1327911487244001280) ofrece un hilo con sus averiguaciones. 
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 18/11/2020 | --- |
+
 #### <a name="FAQ-Z-2"></a>Z.2. Cómo comunican las Comunidades Autónomas (CCAA) el código de 12 digitos
 
 No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comunica el código para comunicar un positivo en Radar Covid ni cómo lo hacen para cada sistema sanitario. Indicamos a continuación la información que nos consta:
 
-- **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. 
+- **Aragón**: A través de saludinforma.es (para quien tiene acceso a ella) o por comunicación del sistema sanitario tras una consulta en la Historia Clínica Electrónica. Ver [saludinforma.es](https://www.saludinforma.es/portalsi/web/salud/radar-covid)
 - **Cataluña**: Si tiene una prueba diagnóstica positiva de Covid-19, recibirá un SMS de la herramienta digital ContacteCovid.cat. Desde allí, puede solicitar el código para introducirlo en Radar COVID. [Canal Salut de la Generalitat](https://canalsalut.gencat.cat/ca/salut-a-z/c/coronavirus-2019-ncov/ciutadania/eines-aplicacions-covid-19/radar-covid/).
 - **Comunidad Valenciana**: [Obtención del código para la notificación de positivo en la aplicación Radar COVID](https://coronavirusregistro.san.gva.es/sipcovid19/asignacodigo?language=es) 
 - **Extremadura**: Cuando una persona con la app descargada y activa es diagnosticada de COVID19, el profesional que le está informando le proporciona un código alfanumérico que, voluntariamente, puede introducir en su aplicación [pregunta si tiene Radar COVID instalado y le dicta el número obtenido por el personal desde la aplicación JARA, que es la que contiene el código]. A partir del momento en que se introduce el código, la aplicación envía un mensaje a las app de todos los dispositivos móviles que estuvieron a menos de 2m durante 15 min o más en los 5 días anteriores. [Servicio Extremeño de Salud](https://saludextremadura.ses.es/web/1698846).
@@ -481,7 +489,7 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 05/11/2020 | --- |
+| Aprobado | 18/11/2020 | --- |
 
 ## Enlaces oficiales
 
@@ -514,6 +522,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.4 
-- Fecha actualización: 07/11/2020
+- Versión: 1.41 
+- Fecha actualización: 18/11/2020
 - [Histórico de cambios](resources/historia.md)
