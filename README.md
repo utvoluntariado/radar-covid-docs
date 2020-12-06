@@ -172,6 +172,15 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
  En las direcciones de descarga de Google y Apple, en la parte inferior, aparece el número de versión que estamos descargando.
 
+ 19/11/2020
+ 
+ iPhone 1.1.2
+ 
+- Preparación de versión para próxima actualización de versión del API de tracing.
+- Establecimiento de compartir claves con Europa como opción por defecto.
+- Corrección de incidencias.
+ 
+ 
  29/10/2020
  
  iPhone 1.1.1, Android 1.1.0
@@ -522,6 +531,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.41 
-- Fecha actualización: 18/11/2020
+- Versión: 1.42 
+- Fecha actualización: 07/12/2020
 - [Histórico de cambios](resources/historia.md)
