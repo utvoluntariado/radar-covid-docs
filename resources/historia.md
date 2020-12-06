@@ -1,5 +1,9 @@
 # Historico de cambios
 
+07/12/2020 (versión 1.42)
+
+- B.4 Añadir versión iPhone
+
 18/11/2020 (versión 1.41)
 
 - Z.1 Añadir enlace a artículo de El Pais de 15/11/2020
