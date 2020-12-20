@@ -172,9 +172,69 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
  En las direcciones de descarga de Google y Apple, en la parte inferior, aparece el número de versión que estamos descargando.
 
- 19/11/2020
+20/12/2020 Android 1.2.0
+
+- Actualización versión DP-3T.
+- Vista de Estadísticas Radar COVID.
+- Vista de información del estado de la aplicación.
+- Recordatorio de apertura de la aplicación.
+- Contador confinamiento.
+- Compartir enlace para facilitar descarga.
+- Añadido idioma Francés.
+- Introducción de código desde SMS.
+- Mejoras de accesibilidad:
+. Aumento de tamaño de texto y contraste.
+. Cambio en el estilo de los enlaces.
+. Etiquetado de elementos en pantalla.
+. Incorporación de encabezados.
+
+Fuente: https://play.google.com/store/apps/details?id=es.gob.radarcovid&hl=es
+
+20/12/2020 iPhone 1.2.0
+
+* Se añade contador informativo de días pendientes de cuarentena para los contactos de riesgo.
+* Vista de Estadísticas de Radar COVID.
+* Vista de información de la aplicación con información relevante para el chequeo del funcionamiento de la aplicación.
+* Se añade recordatorio periódico de apertura de la aplciación.
+* Se incorpora idioma Francés.
+* Introducción de código desde SMS.
+* Incorporación de alerta de BT desactivado.
+* Actualización a versión 2.0.0 de DP3T.
+* Mejoras de accesibilidad.
+* Colectivo con discapacidad visual con resto funcional:
+* Aumento del contraste entre texto y fondo.
+* Cambio en el estilo de los enlaces.
+* Posibilidad de ampliar el tamaño de la fuente adaptándose a la pantalla
+* Colectivo con discapacidad visual sin resto funcional:
+* Etiquetado de botones.
+* Etiquetado de imágenes.
+* Etiquetado de enlaces.
+* Etiquetado de pestañas.
+* Incorporación de encabezados.
+* Listado de ítems en el selector de los idiomas.
+* Listado de ítems en el selector de las comunidades autónomas.
+* Modificación de las casillas del código diagnóstico por un cuadro de texto.
+* Creación de botones “Cancelar” o “Cerrar” para facilitar la salida de las pantallas.
+* Cambio en el orden de los textos.
+* Solución en las casillas de verificación de la pantalla de Privacidad.
+* Modificación del nº de pantallas de “Mi diagnóstico”.
+* Colectivo con discapacidad auditiva:
+* Etiquetado de botones.
+* Etiquetado de imágenes.
+* Etiquetado de enlaces.
+* Etiquetado de pestañas.
+* Listado de ítems en el selector de los idiomas.
+* Listado de ítems en el selector de las comunidades autónomas.
+* Colectivo con discapacidad cognitiva:
+* Incorporación del encabezado Radar COVID.
+* Cambio del pictograma de “home” por un radar.
+* Modificación de literales.
+* Etiquetado de las pestañas del menú.
+* Bugfixing.
+
+Fuente: https://apps.apple.com/es/app/radar-covid/id1520443509
  
- iPhone 1.1.2
+  19/11/2020 iPhone 1.1.2
  
 - Preparación de versión para próxima actualización de versión del API de tracing.
 - Establecimiento de compartir claves con Europa como opción por defecto.
@@ -531,6 +591,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.42 
-- Fecha actualización: 07/12/2020
+- Versión: 1.43 
+- Fecha actualización: 20/12/2020
 - [Histórico de cambios](resources/historia.md)
