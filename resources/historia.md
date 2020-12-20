@@ -1,5 +1,9 @@
 # Historico de cambios
 
+20/12/2020 (versión 1.43)
+
+- B.4 Añadir versiones 1.2.0 de Android y de iPhone
+
 07/12/2020 (versión 1.42)
 
 - B.4 Añadir versión iPhone
