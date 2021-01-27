@@ -1,14 +1,29 @@
-# FAQ a revisar antes de ser publicadas
-Añadir en la parte inferior de 
+# FAQ a revisar antes de ser publicadas (27/01/2021)
 
-Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
+1. Añadir en Enlaces Oficiales https://utvoluntariado.github.io/radar-covid-docs/#enlaces-oficiales
 
-Jordi Perez Colome ofreció datos de uso y alcance en [15/11/2020 en El Pais](https://elpais.com/tecnologia/2020-11-14/el-gran-misterio-de-cuanta-gente-ha-usado-realmente-radar-covid.html)
+[Documentación técnica sobre Radar COVID](https://radarcovid.gob.es/recursos-de-comunicacion)
 
-En este [tuit](https://twitter.com/jordipc/status/1327911487244001280) ofrece un hilo con sus averiguaciones. 
+2. Añadir a B.2
+
+Desde diciembre de 2020 las actualizaciones de los TEK a los móviles se producen varias veces al día, entre 4 y 6 veces. Una actualización típica es ésta:
+
+```
+Fecha/hora descarga TEK descargados
+2021-01-22 23:02	937
+2021-01-22 19:01	14930
+2021-01-22 14:58	974
+2021-01-22 09:32	13430
+2021-01-22 04:17	146	
+2021-01-22 00:16	16211
+```
+
+3. Modificar en D.1
+
+Estima cuántos pacientes han comunicado su diagnóstico positivo (“Shared Diagnoses”) en 11 paises europeos, cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo (“Uploaded TEKs”) y cuál es el porcentaje de los infectados que han comunicado su positivo (“Usage Ratio”) distinguiendo las comunicaciones de todos los paises (Usage Ratio: 4.24%) y las de España (Usage Ratio (Spain): 2.23%). Lo calcula para el último dia (para todos los paises) y los últimos 14 días.
 
 
 
-Actualizado: 16/11/2020 version 18
+
 
 
