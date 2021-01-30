@@ -1,5 +1,14 @@
 # Historico de cambios
 
+30/01/2021 (versión 1.44)
+
+- Añadir en Enlaces oficiales las Estadísticas, recursos y Documentación técnica
+- Modificar Z.1 poniendo enlace a la documentación de Radar COVID para las CCAA
+- Modificar D.2 añadiendo paises que forman la interoperabilidad europea
+- Modificar D.1 añadiendo el formato de estadísticas para la interoperabilidad europea
+- Modificar F.1 añadiendo los paises de la interoperabilidad europea
+- Añadir en B.2 horario de las descargas de notificaciones
+
 20/12/2020 (versión 1.43)
 
 - B.4 Añadir versiones 1.2.0 de Android y de iPhone
