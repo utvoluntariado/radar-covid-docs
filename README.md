@@ -563,6 +563,9 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 ## Enlaces oficiales
 
 - [Radar COVID (radarcovid.gob.es)](https://radarcovid.gob.es/preguntas-frecuentes)
+  [Preguntas frecuentes](https://radarcovid.gob.es/preguntas-frecuentes)
+  [Estadísticas](https://radarcovid.gob.es/estadisticas/descargas-radar)
+  [Recursos de comunicación y documentación técnica](https://radarcovid.gob.es/recursos-de-comunicacion)
 - [Radar COVID - GitHub - Código abierto](https://github.com/radarcovid)
 - [Preguntas y respuestas sobre Radar COVID (www.mscbs.gob.es)](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf)
 - [Soporte en Twitter @AppRadarCovid](https://twitter.com/AppRadarCovid/with_replies)
@@ -591,6 +594,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.43 
-- Fecha actualización: 20/12/2020
+- Versión: 1.43-01b 
+- Fecha actualización: 30/01/2020
 - [Histórico de cambios](resources/historia.md)
