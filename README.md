@@ -513,6 +513,10 @@ _Aunque puedes autorizar notificaciones de exposición de más de una autoridad 
 
 #### <a name="FAQ-Z-1"></a>Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
 
+[Códigos introducidos por cada comunidad autónoma](https://radarcovid.gob.es/estadisticas/codigos-introducidos-a-casos-confirmados)
+
+Lo siguiente se considera OBSOLETO a partir de 29/01/2021. No se retira por si en algún momento fueran necesarios los datos que se ofrecen.
+
 La siguiente tabla contiene las comunidades que entregan el código necesario (al menos en el 50% de los casos) para comunicar que diagnósticos positivos en Radar COVID:
 
 | Comunidad Autónoma | Activo | Fuente | Fecha de actualización |
@@ -594,6 +598,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.43-02b 
+- Versión: 1.43-03b 
 - Fecha actualización: 30/01/2020
 - [Histórico de cambios](resources/historia.md)
