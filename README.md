@@ -164,7 +164,7 @@ Fecha/hora/descarga/TEK descargados
 2021-01-22 04:17	146	
 2021-01-22 00:16	16211
 ```
-La FAQ "He tenido contacto con una persona que ha dado positivo ¿cuánto tiempo pasa hasta que recibo la alerta en la aplicación?" [Radar COVID](https://radarcovid.gob.es/faq-alertas-por-exposicion-la-covid-19) sigue indicando en 30/01/2021:
+La FAQ "_He tenido contacto con una persona que ha dado positivo ¿cuánto tiempo pasa hasta que recibo la alerta en la aplicación?_" [Radar COVID](https://radarcovid.gob.es/faq-alertas-por-exposicion-la-covid-19) sigue indicando en 30/01/2021:
 
  - Entre las 6h y las 18h
  - Entre las 18h y las 6h
@@ -633,6 +633,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.43-06b 
+- Versión: 1.43-07b 
 - Fecha actualización: 30/01/2020
 - [Histórico de cambios](resources/historia.md)
