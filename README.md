@@ -633,6 +633,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.43-07b 
+- Versión: 1.44 
 - Fecha actualización: 30/01/2020
 - [Histórico de cambios](resources/historia.md)
