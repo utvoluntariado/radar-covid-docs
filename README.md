@@ -151,14 +151,27 @@ La comunicación, que diariamente se hace dos veces entre el servidor y nuestro 
 
 #### <a name="FAQ-B-2"></a>B.2. ¿A qué horas calcula mi móvil las notificaciones si un usuario de un móvil próximo ha comunicado un test positivo?
 
- La notificación a mi móvil no se produce en cuanto mi contacto ha comunicado su positivo, sino cuando el servidor envía las actualizaciones a los móviles, y eso sucede dos veces al día:
+ La notificación a mi móvil no se produce en cuanto mi contacto ha comunicado su positivo, sino cuando el servidor envía las actualizaciones a los móviles, y eso sucede varias veces al día:
+
+Desde diciembre de 2020 las actualizaciones de los TEK a los móviles, tanto Android como iPhone, se producen varias veces al día, casi siempre entre 4 y 6 veces. Una actualización típica es ésta:
+
+```
+Fecha/hora/descarga/TEK descargados
+2021-01-22 23:02	937
+2021-01-22 19:01	14930
+2021-01-22 14:58	974
+2021-01-22 09:32	13430
+2021-01-22 04:17	146	
+2021-01-22 00:16	16211
+```
+La FAQ "He tenido contacto con una persona que ha dado positivo ¿cuánto tiempo pasa hasta que recibo la alerta en la aplicación?" [Radar COVID](https://radarcovid.gob.es/faq-alertas-por-exposicion-la-covid-19) sigue indicando en 30/01/2021:
 
  - Entre las 6h y las 18h
  - Entre las 18h y las 6h
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 16/10/2020 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1310517441752182784) |
+| Aprobado | 30/01/2021 | [Twitter (@AppRadarCovid)](https://twitter.com/AppRadarCovid/status/1310517441752182784) |
 
 #### <a name="FAQ-B-3"></a>B.3. Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?
 
@@ -464,11 +477,13 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 
 La relación completa de los paises que cuentan con una aplicación de rastreo de contactos es la [web de la Comisión Europea](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en). 
 
+Tambien se puede encontrar pulsando la imagen de cada pais en la página de [Radar COVID](https://radarcovid.gob.es/estadisticas/descargas-radar).
+
 La Comisión Europea informa que ha comenzado a funcionar la [pasarela de interoperabilidad](https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904). En ese documento se detallan los paises que tienen una [aplicación de contactos](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en) con descripciones técnicas sobre la protección de datos y cómo aseguran la interoperabilidad. Puede encontrarse más información en D.2.
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 07/11/2020 | |
+| Aprobado | 30/01/2021 | |
 | Aprobado | 20/10/2020 | https://ec.europa.eu/commission/presscorner/detail/es/ip_20_1904 |
 | Aprobado | 20/10/2020 | https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/how-tracing-and-warning-apps-can-help-during-pandemic_en |
 
@@ -618,6 +633,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.43-05b 
+- Versión: 1.43-06b 
 - Fecha actualización: 30/01/2020
 - [Histórico de cambios](resources/historia.md)
