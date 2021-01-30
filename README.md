@@ -317,7 +317,26 @@ Una o varias de estas soluciones han funcionado:
 
 Radar STATS es un proyecto desarrollada por @pvieito que publica sus resultados en Twitter en la cuenta [@RadarCOVIDSTATS](https://twitter.com/RadarCOVIDSTATS) cada hora.
 
-Estima cuántos pacientes han comunicado su diagnóstico positivo ("Shared Diagnoses"), cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo ("Uploaded TEKs") y cuál es el porcentaje de los infectados que han comunicado su positivo ("Usage Ratio"). Lo calcula para el último dia y los últimos 7 días.
+Estima cuántos pacientes han comunicado su diagnóstico positivo ("Shared Diagnoses"), cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo ("Uploaded TEKs") y cuál es el porcentaje de los infectados que han comunicado su positivo ("Usage Ratio"). Lo calcula para el último dia y los últimos 14 días tanto en el nivel europeo como en el español.
+
+[Ejemplo](https://twitter.com/RadarCOVIDSTATS/status/1355321567589396486)
+
+```
+#RadarCOVID – 2021-01-30@01
+
+Source Countries: 11 🇪🇺
+
+Today (Partial):
+- Uploaded TEKs: 106 (+106 last hour)
+- Shared Diagnoses: ≤70
+- Usage Ratio: ≤0.09%
+
+Last 14 Days:
+- Usage Ratio: ≤4.07%
+- Usage Ratio (Spain): ≤2.17%
+
+Info: https://github.com/pvieito/Radar-STATS#documentation
+```
 
 Radar STATS es un proyecto de código abierto. Contiene un histórico de los datos y documentación sobre el significado de las estadísticas.
 
@@ -325,11 +344,12 @@ Existe una [aplicación para iOS](https://github.com/Radar-STATS/Radar-STATS-iOS
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 08/10/2020 | [Radar STATS](https://github.com/Radar-STATS/Radar-STATS#documentation), [Radar STATS – iOS](https://github.com/Radar-STATS/Radar-STATS-iOS) |
+| Aprobado | 30/01/2021 | [Radar STATS](https://github.com/Radar-STATS/Radar-STATS#documentation), [Radar STATS – iOS](https://github.com/Radar-STATS/Radar-STATS-iOS) |
 
 
 #### <a name="FAQ-D-2"></a>D.2. La interoperabilidad de las aplicaciones europeas y la pérdida de detalle estadístico.
 
+El 28/01/2021 [el servicio de Twitter de @AppRadarCovid](https://radarcovid.gob.es/estadisticas/descargas-radar) ha anunciado los paises que comparten la Interoperabilidad Europea. Un usuario puede recibir alertas de contacto de riesgo con independencia del país en el que esté y la app que use.
 
 El 30/10/2020 Radar COVID ya está conectada al nodo de interoperabilidad de la Comisión Europea según [informa @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1322142080483864577) 
 
@@ -513,7 +533,7 @@ _Aunque puedes autorizar notificaciones de exposición de más de una autoridad 
 
 #### <a name="FAQ-Z-1"></a>Z.1. Comunidades Autónomas (CCAA) cuyo sistema sanitario proporciona el código de 12 cifras para comunicar un diagnóstico positivo
 
-[Códigos introducidos por cada comunidad autónoma](https://radarcovid.gob.es/estadisticas/codigos-introducidos-a-casos-confirmados)
+Las Comunidades Autónomas que han entregado códigos [códigos introducidos por cada comunidad autónoma](https://radarcovid.gob.es/estadisticas/codigos-introducidos-a-casos-confirmados)
 
 Lo siguiente se considera OBSOLETO a partir de 29/01/2021. No se retira por si en algún momento fueran necesarios los datos que se ofrecen.
 
@@ -547,7 +567,7 @@ En este [tuit](https://twitter.com/jordipc/status/1327911487244001280) ofrece un
 
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
-| Aprobado | 18/11/2020 | --- |
+| Aprobado | 30/01/2021 | --- |
 
 #### <a name="FAQ-Z-2"></a>Z.2. Cómo comunican las Comunidades Autónomas (CCAA) el código de 12 digitos
 
@@ -598,6 +618,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.43-03b 
+- Versión: 1.43-05b 
 - Fecha actualización: 30/01/2020
 - [Histórico de cambios](resources/historia.md)
