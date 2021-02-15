@@ -1,26 +1,22 @@
-# FAQ a revisar antes de ser publicadas (27/01/2021)
+# FAQ a revisar antes de ser publicadas (15/02/2021)
 
-1. Añadir en Enlaces Oficiales https://utvoluntariado.github.io/radar-covid-docs/#enlaces-oficiales
+Añadir E.5
 
-[Documentación técnica sobre Radar COVID](https://radarcovid.gob.es/recursos-de-comunicacion)
+#### <a name="FAQ-E-5"></a>E.5. Funcionamiento técnico de Radar COVID 2. El servidor de verificación.
 
-2. Añadir a B.2
+Radar COVID utiliza dos servidores: el **servidor de verificación** y el **servidor de diagnósticos positivos** (ver FAQ E.3).
 
-Desde diciembre de 2020 las actualizaciones de los TEK a los móviles se producen varias veces al día, entre 4 y 6 veces. Una actualización típica es ésta:
+El servidor de verificación valida el código de diagnóstico positivo que han dado las autoridades sanitarias y es introducido por el ciudadano en su móvil. Este servidor verifica el estado del código (si ha sido usado o no lo ha sido, si ha caducado por no haber sido usado durante el período de validez). 
+
+Si el código es correcto el servidor responde con un ticket (en inglés "_certificate issued for temporary exposure keys_") en el que se puede incluir información extra. En esta información pudiera estár incluida el código de CCAA que pudiera servir para ver cuantos códigos de diagnóstico positivo se han [enviado desde cada CCAA] (https://radarcovid.gob.es/estadisticas/codigos-introducidos-a-casos-confirmados).
+
+La información técnica puede encontrarse aquí [https://developers.google.com/android/exposure-notifications/verification-system](https://developers.google.com/android/exposure-notifications/verification-system). A continuación se muestra un trozo de esa información. 
 
 ```
-Fecha/hora descarga TEK descargados
-2021-01-22 23:02	937
-2021-01-22 19:01	14930
-2021-01-22 14:58	974
-2021-01-22 09:32	13430
-2021-01-22 04:17	146	
-2021-01-22 00:16	16211
+The epi (epi: el sanitario que comunica el positivo) requests a Verification Code (VC) using the web interface provided by a verification server, which generates the VC and sets the time limit for it, and provides it to the epi. Optionally, the epi provides details about the diagnosis that will be associated with the requested VC. This information is stored by the verification server linked to the issued VC. The verification server can later include the diagnosis information in the certificate issued for the Temporary Exposure Keys (TEKs) of the corresponding user.
 ```
 
-3. Modificar en D.1
 
-Estima cuántos pacientes han comunicado su diagnóstico positivo (“Shared Diagnoses”) en 11 paises europeos, cuántos identificadores efímeros -simplificando- intercambiados por móviles se han subido por los que comunicaron positivo (“Uploaded TEKs”) y cuál es el porcentaje de los infectados que han comunicado su positivo (“Usage Ratio”) distinguiendo las comunicaciones de todos los paises (Usage Ratio: 4.24%) y las de España (Usage Ratio (Spain): 2.23%). Lo calcula para el último dia (para todos los paises) y los últimos 14 días.
 
 
 
