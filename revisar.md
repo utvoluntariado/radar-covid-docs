@@ -6,6 +6,13 @@ Añadir B.6
 
 [mensaje](resources/b6_registros_exposicion.jpg)
 
+Lo que indica esa alerta es que esa semana se han encontrado dos claves de infectados coincidentes con las que tienes almacenadas el teléfono y se han notificado a Radar COVID. Si no le ha saltado la alerta de contagio es porque Radar COVID no ha catalogado la exposición como significativa (es decir, no cumple una exposición acumulada >= 15 minutos a menos de dos metros de distancia en el mismo día).
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 15/01/2021 | [Twitter 1 de @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1356875757738487809)|
+| Aprobado | 15/01/2021 | [Twitter 2 de @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1356875993101852672)|
+
 Añadir E.5
 
 #### <a name="FAQ-E-5"></a>E.5. Funcionamiento técnico de Radar COVID 2. El servidor de verificación.
