@@ -4,7 +4,7 @@ Añadir B.6
 
 #### <a name="FAQ-B-6"></a>B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa 
 
-Al entrar en Radar COVID aparece
+Al entrar en Radar COVID aparece:
 
 _REGISTRO DE EXPOSICIÓN A LA COVID-19 ahora
 Actualización semanal
