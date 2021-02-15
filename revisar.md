@@ -4,7 +4,15 @@ Añadir B.6
 
 #### <a name="FAQ-B-6"></a>B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa 
 
-[Pantalla de Radar COVID exposición sin contacto de riesgo](resources/b6_registros_exposicion.jpg)
+Al entrar en Radar COVID aparece
+
+_REGISTRO DE EXPOSICIÓN A LA COVID-19 ahora
+Actualización semanal
+Tu dispositivo ha identificado 6 posibles exposiciones esta semana y las ha compartido con la app Radar COVID_
+
+_Sin contactos de riesgo identificados. Te informaremos de un posible contacto de riesgo._
+
+[Ver Pantalla de Radar COVID exposición sin contacto de riesgo](resources/b6_registros_exposicion.jpg)
 
 Lo que indica esa alerta es que esa semana se han encontrado dos claves de infectados coincidentes con las que tienes almacenadas el teléfono y se han notificado a Radar COVID. Si no le ha saltado la alerta de contagio es porque Radar COVID no ha catalogado la exposición como significativa (es decir, no cumple una exposición acumulada >= 15 minutos a menos de dos metros de distancia en el mismo día).
 
