@@ -1,5 +1,11 @@
 # FAQ a revisar antes de ser publicadas (15/02/2021)
 
+Añadir B.6
+
+#### <a name="FAQ-B-6"></a>B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa 
+
+[mensaje](resources/b6_registros_exposicion.jpg)
+
 Añadir E.5
 
 #### <a name="FAQ-E-5"></a>E.5. Funcionamiento técnico de Radar COVID 2. El servidor de verificación.
@@ -24,6 +30,8 @@ the Temporary Exposure Keys (TEKs) of the corresponding user.
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
 | Aprobado | 15/01/2021 | [https://developers.google.com/android/exposure-notifications/verification-system](https://developers.google.com/android/exposure-notifications/verification-system)|
+
+
 
 
 
