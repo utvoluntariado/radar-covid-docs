@@ -1,5 +1,10 @@
 # Historico de cambios
 
+18/01/2021 (versión 1.5)
+
+- Añadir B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa
+- Añadir E.5. Funcionamiento técnico de Radar COVID 2. El servidor de verificación. 
+
 30/01/2021 (versión 1.44)
 
 - Añadir en Enlaces oficiales las Estadísticas, recursos y Documentación técnica
