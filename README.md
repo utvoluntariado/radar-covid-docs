@@ -22,6 +22,7 @@ Dar respuesta a las consultas que se formulan sobre la aplicación Radar COVID t
     * [B.3. ¿Si vivo en una Comunidad Autónoma (CCAA) que no proporciona código para comunicar un positivo ¿puedo recibir notificaciones de contacto alto?](#FAQ-B-3)
     * [B.4. Nuevas versiones de Radar COVID](#FAQ-B-4)
     * [B.5. ¿Qué ocurre a Radar COVID después de que se comunica un diagnóstico positivo?](#FAQ-B-5)
+    * [B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa.](#FAQ-B-6)
   * [**C. Errores de Radar COVID**](#FAQ-C)
     * [C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”](#FAQ-C-1)
     * [C.2. Radar COVID no funciona correctamente en Android: “Error al cargar nuevos datos de infección”](#FAQ-C-2)
@@ -33,6 +34,7 @@ Dar respuesta a las consultas que se formulan sobre la aplicación Radar COVID t
      * [E.2. ¿Cómo puedo ver el listado de comprobaciones de exposición en iOS?](#FAQ-E-2)
      * [E.3. ¿Qué es una comprobación de exposición?](#FAQ-E-3)
      * [E.4. Funcionamiento técnico de Radar COVID](#FAQ-E-4)
+     * [E.5. Funcionamiento técnico de Radar COVID 2. El servidor de verificación.](#FAQ-E-5)
   * [**F. Internacional**](#FAQ-F)
     * [F.1. Aplicaciones similares a Radar COVID en otros países](#FAQ-F-1)
     * [F.2. Documentación sobre el acuerdo de Google-Apple para intercambio a través de Bluetooth](#FAQ-F-2)
@@ -296,6 +298,25 @@ Esta desactivación se produce incluso cuando se utiliza un código de 12 dígit
 | --- | --- | --- |
 | Aprobado | 17/10/2020 | https://twitter.com/AppRadarCovid/status/1317148304711376897 |
 
+### <a name="FAQ-B-6"></a>B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa.
+
+Al entrar en Radar COVID aparece:
+
+_REGISTRO DE EXPOSICIÓN A LA COVID-19 ahora
+Actualización semanal
+Tu dispositivo ha identificado 6 posibles exposiciones esta semana y las ha compartido con la app Radar COVID_
+
+_Sin contactos de riesgo identificados. Te informaremos de un posible contacto de riesgo._
+
+[Ver Pantalla de Radar COVID exposición sin contacto de riesgo](resources/b6_registros_exposicion.jpg)
+
+Lo que indica esa alerta es que esa semana se han encontrado dos claves de infectados coincidentes con las que tienes almacenadas el teléfono y se han notificado a Radar COVID. Si no le ha saltado la alerta de contagio es porque Radar COVID no ha catalogado la exposición como significativa (es decir, no cumple una exposición acumulada >= 15 minutos a menos de dos metros de distancia en el mismo día).
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 15/01/2021 | [Twitter 1 de @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1356875757738487809)|
+| Aprobado | 15/01/2021 | [Twitter 2 de @AppRadarCovid](https://twitter.com/AppRadarCovid/status/1356875993101852672)|
+
 ### <a name="FAQ-C"></a>C. Errores de Radar COVID
 
 #### <a name="FAQ-C-1"></a>C.1. Radar COVID no funciona correctamente en Android: “Ahorro de energía activado. Debes desactivarlo para que Radar COVID funcione correctamente.”
@@ -460,6 +481,30 @@ En la parte inferior la pantalla de Comprobaciones de exposición, pulsando **Ex
 | Estado | Actualización | Fuentes |
 | --- | --- | --- |
 | Borrador | 11/10/2020 | [Ministerio de Salud](https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf), [Google Support](https://support.google.com/googleplay/answer/9888358?hl=es), [Radar COVID](https://radarcovid.gob.es/politica-de-privacidad), [Apple](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf) |
+
+#### <a name="FAQ-E-5"></a>E.5. Funcionamiento técnico de Radar COVID 2. El servidor de verificación.
+
+Radar COVID utiliza dos servidores: el **servidor de verificación** y el **servidor de diagnósticos positivos** (ver FAQ E.3).
+
+El servidor de verificación valida el código de diagnóstico positivo que han dado las autoridades sanitarias y es introducido por el ciudadano en su móvil. Este servidor verifica el estado del código (si ha sido usado o no lo ha sido, si ha caducado por no haber sido usado durante el período de validez). 
+
+Si el código es correcto el servidor responde con un ticket (en inglés "_certificate issued for temporary exposure keys_") en el que se puede incluir información extra. En esta información pudiera estár incluida el código de CCAA que pudiera servir para ver cuantos códigos de diagnóstico positivo se han [enviado desde cada CCAA](https://radarcovid.gob.es/estadisticas/codigos-introducidos-a-casos-confirmados).
+
+La información técnica puede encontrarse aquí [https://developers.google.com/android/exposure-notifications/verification-system](https://developers.google.com/android/exposure-notifications/verification-system). A continuación se muestra un trozo de esa información. 
+
+```
+The epi (epi: el sanitario que comunica el positivo) requests a Verification Code (VC) using the web interface provided by a verification 
+server, which generates the VC and sets the time limit for it, and provides it to the epi. 
+Optionally, the epi provides details about the diagnosis that will be associated with the requested VC. 
+This information is stored by the verification server linked to the issued VC. 
+The verification server can later include the diagnosis information in the certificate issued for 
+the Temporary Exposure Keys (TEKs) of the corresponding user.
+```
+
+| Estado | Actualización | Fuentes |
+| --- | --- | --- |
+| Aprobado | 15/01/2021 | [https://developers.google.com/android/exposure-notifications/verification-system](https://developers.google.com/android/exposure-notifications/verification-system)|
+
 
 ### <a name="FAQ-F"></a>F. Internacional
 
@@ -633,6 +678,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.44 
-- Fecha actualización: 30/01/2020
+- Versión: 1.5 
+- Fecha actualización: 18/02/2020
 - [Histórico de cambios](resources/historia.md)
