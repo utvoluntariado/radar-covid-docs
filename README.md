@@ -187,6 +187,29 @@ Sí. Si usted ha estado en contacto con una persona que vive en otra CCAA que pr
 
  En las direcciones de descarga de Google y Apple, en la parte inferior, aparece el número de versión que estamos descargando.
 
+18/02/2021 Android 1.3.0
+
+- Modificaciones en política de privacidad.
+- Reporte de métrica anónima para medir eficiencia de la aplicación.
+- Se añade idioma rumano.
+- Corrección de errores.
+- Mejoras de accesibilidad:
+- Corregido encabezado de “Cambio de estado” en el pop up de 14 días que el lector de pantalla no leía.
+- Incorporación de iconos de cierre en los ventanas emergentes.
+
+Fuente: [https://play.google.com/store/apps/details?id=es.gob.radarcovid&hl=es](https://play.google.com/store/apps/details?id=es.gob.radarcovid&hl=es)
+
+
+18/02/2021 iPhone 1.3.0
+
+- Modificaciones en política de privacidad.
+- Reporte de métrica anónima para medir eficiencia de la aplicación.
+- Se añade idioma rumano.
+- Soporte a versiones de iOS 12.5+
+- Solución de errores.
+
+Fuente: [https://apps.apple.com/es/app/radar-covid/id1520443509](https://apps.apple.com/es/app/radar-covid/id1520443509) > Historial de actualizaciones
+
 20/12/2020 Android 1.2.0
 
 - Actualización versión DP-3T.
@@ -678,6 +701,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.5 
-- Fecha actualización: 18/02/2020
+- Versión: 1.5.1 
+- Fecha actualización: 19/02/2020
 - [Histórico de cambios](resources/historia.md)
