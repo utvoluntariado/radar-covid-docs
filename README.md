@@ -701,6 +701,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.5.1 
+- Versión: 1.51 
 - Fecha actualización: 19/02/2020
 - [Histórico de cambios](resources/historia.md)
