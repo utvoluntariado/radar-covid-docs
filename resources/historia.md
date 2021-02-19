@@ -1,5 +1,9 @@
 # Historico de cambios
 
+19/02/2021 (versión 1.51)
+
+- Añadir B.4 Version de Radar COVID 1.3.0 en iPhone y Android. Añadir características.
+
 18/02/2021 (versión 1.5)
 
 - Añadir B.6. Radar COVID ha considerado una exposición pero no la ha catalogado como significativa
