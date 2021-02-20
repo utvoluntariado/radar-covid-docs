@@ -702,5 +702,5 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 ## Versión
 
 - Versión: 1.51 
-- Fecha actualización: 19/02/2020
+- Fecha actualización: 19/02/2021
 - [Histórico de cambios](resources/historia.md)
