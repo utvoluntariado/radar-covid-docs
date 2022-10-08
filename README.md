@@ -7,6 +7,10 @@ _Proyecto de la [Unidad Tecnológica de Voluntariado](http://utv.com.es)._
 
 Dar respuesta a las consultas que se formulan sobre la aplicación Radar COVID tanto sobre su funcionamiento cómo su arquitectura más técnica. Va dirigida a las personas que no encuentan información oficial suficiente. Responde también a preguntas sobre el proyecto Radar STATS.
 
+La aplicación Radar Covid (en móvil) indica en 08/10/2022:
+
+Radar COVID finalizó su actividad el 9/10/2022. A partir de esa fecha sus funcionalidades dejaron de estar operativas.
+
 ## Índice
 
 - [**Preguntas frecuentes**](#preguntas-frecuentes)
@@ -701,6 +705,6 @@ No es posible indicar con exactitud el modo en que cada Comunidad Autónoma comu
 
 ## Versión
 
-- Versión: 1.51 
-- Fecha actualización: 19/02/2021
+- Versión: 1.52 
+- Fecha actualización: 08/10/2022
 - [Histórico de cambios](resources/historia.md)
